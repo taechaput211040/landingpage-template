@@ -1,0 +1,124 @@
+@app.get("/api/Webinfomation")
+def Webinfomation(code_name: str,request: Request):
+    schema_extra = {
+        "section_header": {
+            "font_title_color": "#ffffff",
+            "background": "#000000",
+            "image_navbar": "http://192.168.1.51:8001/assets/img/line.svg",
+        },
+        "button_register": "http://192.168.1.51:8001/assets/img/icon/btn_register.png",
+        "button_login": "http://192.168.1.51:8001/assets/img/icon/btn_login.png",
+        "logo": "http://192.168.1.51:8001/assets/img/logo.png",
+        "title": "Betvvipkub",
+        "section1": [
+            {
+                "image": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_1.jpg",
+                "image_mobile": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_1.jpg",
+                "alt": "promo 1"
+            },
+            {
+                "image": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_2.jpg",
+                "image_mobile": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_2.jpg",
+                "alt": "promo 2"
+            },
+            {
+                "image": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_3.jpg",
+                "image_mobile": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_3.jpg",
+                "alt": "promo 3"
+            },
+            {
+                "image": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_4.jpg",
+                "image_mobile": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_4.jpg",
+                "alt": "promo 4"
+            },
+            {
+                "image": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_5.jpg",
+                "image_mobile": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_5.jpg",
+                "alt": "promo 5"
+            },
+        ],
+        "section2": {
+            "image_background": "http://192.168.1.51:8001/assets/desktop/card-bg.png",
+            "image_background_mobile": "http://192.168.1.51:8001/assets/mobile/card.png",
+            "title": "คาสิโนออนไลน์รูปแบบใหม่",
+            "detail":
+            "เว็บสล็อตและคาสิโนออนไลไน์ยอดนิยมที่สุดในเอเชีย รวบรวมเกมส์ใหม่สุดมันส์ไว้ที่นี่ที่เดียว!! BETKUB คาสิโนออนไลน์ที่เล่นง่าย ได้เงินจริง ด้วยการพัฒนารูปแบบการเข้าเล่นเกม โดยไม่ต้องโหลดแอพ ผู้ใช้บริการสามารถเข้าเล่นผ่านเว็บไซต์ได้ง่ายๆ โดยไม่ต้องโหลด แอพให้ยุ่งยาก สะดวกต่อการเข้าใช้งานมากๆ บริการรวดเร็วทันใจด้วยเจ้าหน้าที่ระดับ มืออาชีพ",
+            "image_register": "http://192.168.1.51:8001/assets/img/icon/btn_register_gold.png",
+            "style": {
+                "title_color": "#ffd46d",
+                "detail_color": "#ffffff"
+            }
+        },
+        "section3": {
+            "image": "http://192.168.1.51:8001/assets/img/how_to_play.png",
+            "image_mobile": "",
+            "alt": ""
+        },
+        "section4": {
+            "title": "Promotion",
+            "detail":
+            "เว็บสล็อตและคาสิโนออนไลไน์ยอดนิยมที่สุดในเอเชีย รวบรวมเกมส์ใหม่สุดมันส์ไว้ที่นี่่ที่เดียว!! BETKUB คาสิโนออนไลน์ที่เล่นง่าย ได้เงินจริง ด้วยการพัฒนารูปแบบการเข้าเล่นเกม โดยไม่ต้องโหลดแอพ ผู้ใช้บริการสามารถเข้าเล่นผ่านเว็บไซต์ได้ง่ายๆ โดยไม่ต้องโหลด แอพให้ยุ่งยาก สะดวกต่อการเข้าใช้งานมากๆ บริการรวดเร็วทันใจด้วยเจ้าหน้าที่ระดับ มืออาชีพ",
+            "image": "http://192.168.1.51:8001/assets/desktop/promotion-bg.png",
+            "image_mobile": "http://192.168.1.51:8001/assets/mobile/promotion.png",
+            "alt": "",
+            "promotion": [
+                {
+                    "image": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_1.jpg",
+                    "image_mobile": "",
+                    "alt": "promo 1"
+                },
+                {
+                    "image": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_2.jpg",
+                    "image_mobile": "",
+                    "alt": "promo 2"
+                },
+                {
+                    "image": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_3.jpg",
+                    "image_mobile": "",
+                    "alt": "promo 3"
+                },
+                {
+                    "image": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_4.jpg",
+                    "image_mobile": "",
+                    "alt": "promo 4"
+                },
+                {
+                    "image": "http://192.168.1.51:8001/assets/img/promotion/promotion_betvvipkub_5.jpg",
+                    "image_mobile": "",
+                    "alt": "promo 5"
+                },
+            ],
+            "style": {
+                "title_color": "#ffd46d",
+                "detail_color": "#ffffff"
+            },
+        },
+        "section5": {
+            "image": "http://192.168.1.51:8001/assets/desktop/why_to_play.png",
+            "image_mobile": "http://192.168.1.51:8001/assets/mobile/why_to_play.png",
+            "alt": ""
+        },
+        "section6": {
+            "title": "เชื่อใจเราได้ 100%",
+            "detail":
+            "คาสิโนออนไลน์ betkub เล่นง่ายได้เงินจริงสมัครเล่นคาสิโนออนไลน์บนเว็บไซต์ betkubที่ตอบโจทย์ทุกท่านด้วยฟังก์ชั่นการใช้งานที่เต็มไปด้วยประสิทธิภาพและคุณภาพครบครันสุดยอดเกมส์เดิมพันเกมส์ที่ได้รับความนิยมอย่างแพร่หลายในหลายๆประเทศทั่วโลก คาสิโนออนไลน์ครบวงจรที่มีเกมให้คุณเลือกเล่นแบบหลากหลายบาคาร่า สล็อต ยิงปลา เล่นได้แบบไม่มีสะดุดตลอดทั้งวันทั้งคืนและเรายังเต็ม ไปด้วยโปรโมชั่นดีๆ มากมายเครดิตฟรี 10%ชวนเพื่อนรับโบนัสหรือโปรโมชั่นลูกค้าประจําไม่ทําให้ทุกคนต้องเสียเงินเปล่าแน่นอน",
+            "register_title": "สมัครสมาชิก ฟรี ตลอด 24 ชม",
+            "register_detail":
+            "Betvvipkub ให้บริการคาสิโนสด บอลออนไลน์ สล็อตออนไลน์ หวยออนไลน์ บาคาร่าออนไลน์ รูเล็ต ไฮโล บาคาร่าวัววัวเสือมังกร แบล็คแจ็คและอื่นๆ อีกมากมาย",
+            "last_box": "เล่นคาสิโนออนไลน์ หาเงินได้ง่าย ๆ",
+            "last_detail":
+            "ปัจจุบันนี้มีเทคนิคการเล่นเกม คาสิโนออนไลน์ ให้ชนะมากมายเผยแพร่อยู่ตามโลกอินเทอร์เน็ต เทคนิคเหล่านั้นเป็นเทคนิคที่สามารถใช้งานได้จริง เป็นเทคนิคที่ได้รับการยอมรับและเป็นเทคนิคที่ได้รับความนิยมอย่างมาก ถ้าหากเพื่อนๆ เป็นคนนึงที่มีความชื่นชอบการเล่นเกมคาสิโน เว็บไซต์ของเราก็พร้อมที่จะบริการท่าน มาเปิดประสบการณ์ความเพลิดเพลินในทุกรูปแบบการเดิมพัน พร้อมระบบรักษาความปลอดภัยสูง มั่นคงด้วยการเงินระดับประเทศ พร้อมจ่ายไม่อั้นให้สมาชิกทุกคน เรายังเก็บข้อมูลสมาชิกไม่มีรั่วไหลไปที่อื่นแน่นอน มั่นใจได้ถึงความปลอดภัยในทุกการเดิมพันตลอดเล่นเกมได้เงินจริงจากคาสิโน ทุกวัน 24 ช.ม. ฝาก ถอน ผ่านระบบอัตโนมัติที่มีให้บริการ เป็นอะไรที่สะดวกสบายและรวดเร็วอย่างมาก เพราะฉะนั้น สมัครเข้าเล่นคาสิโนออนไลน์ได้เงินจริง กับเว็บไซต์คาสิโนออนไลน์ พร้อมสร้างกําไรจากการเล่นเกมคาสิโน ที่เว็บไซต์ของเรามีให้บริการ"
+        },
+        "section7": {
+            "image": "http://192.168.1.51:8001/assets/desktop/agent.png",
+            "image_mobile": "http://192.168.1.51:8001/assets/mobile/agent.png",
+            "alt": ""
+        },
+        "section8": {
+            "link_line": "www.line.com",
+            "title_line": "BETKUB",
+            "image_qrcode": "http://192.168.1.51:8001/assets/img/line_qr.jpg"
+        }
+    }
+    # raise HTTPException(status_code=404, detail="Item not found")
+    return schema_extra
