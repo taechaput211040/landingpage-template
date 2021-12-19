@@ -3,7 +3,7 @@
     "theme1": [
       {
         "name": "palate1",
-        "title": "Theme1 > Palate1",
+        "title": "Theme1Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044028cc843605ec28448d9b5b11f4624c67e0.png",
 
         "image": [
@@ -38,7 +38,7 @@
       },
       {
         "name": "palate2",
-        "title": "Theme1 > Palate2",
+        "title": "Theme1Palate2",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044154734770ebda0842ee98a0dc3b10b67544.png",
 
         "image": [
@@ -73,7 +73,7 @@
       },
       {
         "name": "palate3",
-        "title": "Theme1 > Palate3",
+        "title": "Theme1Palate3",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044259908c25a13a584146977e511361a05c99.png",
 
         "image": [
@@ -110,7 +110,7 @@
     "theme4": [
       {
         "name": "palate1",
-        "title": "Theme4 > Palate1",
+        "title": "Theme4Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130444233c80fc0c68e445c39f4ed1d62e0bc270.png",
 
         "image": [
@@ -145,7 +145,7 @@
       },
       {
         "name": "palate2",
-        "title": "Theme4 > Palate2",
+        "title": "Theme4Palate2",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130445386a249f364831483283fe61cc8796fc4c.png",
 
         "image": [
@@ -180,7 +180,7 @@
       },
       {
         "name": "palate3",
-        "title": "Theme4 > Palate3",
+        "title": "Theme4Palate3",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044607fe20cedc179a4ec0afe73e9066b6bfed.png",
 
         "image": [
@@ -218,7 +218,7 @@
     "theme5": [
       {
         "name": "palate1",
-        "title": "Theme5 > Palate1",
+        "title": "Theme5Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081305280356689f60761c4c909c0abb2e19408a14.png",
 
         "image": [
@@ -257,7 +257,7 @@
     "theme1": [
       {
         "name": "palate1",
-        "title": "Theme1 > Palate1",
+        "title": "Theme1Palate1",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081305494445cf9f0d4e3b4ba39b2ea5a6245ecf73.png",
         "description": "-logo เปลี่ยนได้ ขนาด 414x437px <br>  -icon เปลี่ยนได้ ขนาด 100x100px <br>  -Button เปลี่ยนได้ ขนาด 264x64px <br>  -Banner เปลี่ยนได้ ขนาด 575x500px<br> <br> *ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
         "image": [
@@ -293,7 +293,7 @@
       },
       {
         "name": "palate2",
-        "title": "Theme1 > Palate2",
+        "title": "Theme1Palate2",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055315d04ab149241a423682e4dabd66c56155.png",
         "description": "-logo เปลี่ยนได้ ขนาด 486x164px <br> -icon เปลี่ยนได้ ขนาด 100x100px <br>-Banner เปลี่ยนได้ ขนาด 600x600px,<br><br>*ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
         "image": [
@@ -329,7 +329,7 @@
       },
       {
         "name": "palate3",
-        "title": "Theme1 > Palate3",
+        "title": "Theme1Palate3",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055341c9dd350bb219424193f49a83792587b8.png",
         "description": "-logo เปลี่ยนได้ ขนาด 1190x164px <br>-icon เปลี่ยนได้ ขนาด 100x100px <br>-Banner เปลี่ยนได้ ขนาด 575x500px<br><br>*ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
         "image": [
@@ -367,7 +367,7 @@
     "theme4": [
       {
         "name": "palate1",
-        "title": "Theme4 > Palate1",
+        "title": "Theme4Palate1",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055711077b0d3e5f9f4334a6cbafd9f04f7366.png",
         "description": "-logo เปลี่ยนได้ ขนาด 953x200px <br>-icon เปลี่ยนได้ ขนาด 100x100px<br>-Banner เปลี่ยนได้ ขนาด 1040x1040px<br> <br>*ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
         "image": [
@@ -403,7 +403,7 @@
       },
       {
         "name": "palate2",
-        "title": "Theme4 > Palate2",
+        "title": "Theme4Palate2",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130557313bb6444163c54165934a3af022faf62b.png",
         "description": "-logo เปลี่ยนได้ ขนาด 953x200px <br>-icon เปลี่ยนได้ ขนาด 100x100px<br>-Banner เปลี่ยนได้ ขนาด 1040x1040px<br> <br>  *ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
         "image": [
@@ -439,7 +439,7 @@
       },
       {
         "name": "palate3",
-        "title": "Theme4 > Palate3",
+        "title": "Theme4Palate3",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055754805f1d80999f4bd5a135a3e45f082dde.png",
         "description": "-logo เปลี่ยนได้ ขนาด 953x200px <br>-icon เปลี่ยนได้ ขนาด 100x100px<br>-Banner เปลี่ยนได้ ขนาด 1040x1040px<br> <br>  *ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
         "image": [

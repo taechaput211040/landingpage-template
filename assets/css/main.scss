@@ -30,6 +30,7 @@ span {
     display: flex !important;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
   }
 }
 
@@ -125,7 +126,7 @@ span {
     position: relative;
     text-align: center;
     background: var(--bg_show_mock);
-    min-height: 600px;
+    min-height: 500px;
 
     .img-showmock {
       position: absolute;
@@ -170,4 +171,10 @@ span {
   text-align: center;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
   border-radius: 15px;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6;
 }
