@@ -11,6 +11,7 @@
         />
       </div>
     </div>
+    <div></div>
     <div
       v-for="(item, index) in dataselect.image"
       :key="index"
