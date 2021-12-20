@@ -9,13 +9,22 @@
           />
         </nuxt-link>
         <div class="menu">
-          <nuxt-link to="/landingpage" class="btn mx-1 btn-landing p-2"
+          <nuxt-link
+            to="/landingpage"
+            :class="{ active_menu: this.$route.name == 'landingpage' }"
+            class="btn mx-1 btn-landing p-2"
             >LANDING PAGE</nuxt-link
           >
-          <nuxt-link to="/seopage" class="btn mx-1 btn-landing-seo p-2"
+          <nuxt-link
+            to="/seopage"
+            :class="{ active_menu: this.$route.name == 'seopage' }"
+            class="btn mx-1 btn-landing-seo p-2"
             >LANDING PAGE(SEO)</nuxt-link
           >
-          <nuxt-link to="/memberpage" class="btn mx-1 btn-member  p-2"
+          <nuxt-link
+            to="/memberpage"
+            :class="{ active_menu: this.$route.name == 'memberpage' }"
+            class="btn mx-1 btn-member  p-2"
             >MEMBER</nuxt-link
           >
         </div>

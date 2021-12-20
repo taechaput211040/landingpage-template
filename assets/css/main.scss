@@ -56,8 +56,8 @@ span {
     display: none;
   }
   .main-logo {
-    height: 80px;
-    padding: 10px;
+    height: 60px;
+    padding: 0 0 0 10px;
     cursor: pointer;
   }
   .show-mock {
@@ -71,6 +71,19 @@ span {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -40%);
+    }
+  }
+  .set-position {
+    box-shadow: -1px 4px 11px 5px rgb(0 0 0 / 11%);
+    right: 0;
+    background: #ffffff;
+    overflow: auto;
+    margin-top: 20px;
+    padding: 10;
+
+    .card-expanding {
+      box-shadow: -1px 4px 6px 9px rgb(0 0 0 / 11%);
+      padding: 20px;
     }
   }
 }
@@ -102,6 +115,9 @@ span {
     .btn-member:hover {
       box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 20%) !important;
     }
+    .active_menu {
+      box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 20%) !important;
+    }
   }
   .main-logo {
     height: 95px;
@@ -120,6 +136,19 @@ span {
       transform: translate(-50%, -40%);
     }
   }
+  .set-position {
+    box-shadow: -1px 4px 11px 5px rgb(0 0 0 / 11%);
+    right: 0;
+    background: #ffffff;
+    overflow: auto;
+    margin-top: 20px;
+    padding: 10;
+
+    .card-expanding {
+      box-shadow: -1px 4px 6px 9px rgb(0 0 0 / 11%);
+      padding: 20px;
+    }
+  }
 }
 @include media-breakpoint-up(lg) {
   .show-mock {
@@ -133,6 +162,23 @@ span {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -40%);
+    }
+  }
+  .set-position {
+    padding: 10px;
+    width: 300px;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    background: #ffffff;
+    bottom: 50px;
+    box-shadow: 0px 7px 12px 0px rgb(0 0 0 / 14%);
+    z-index: 10;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    .card-expanding {
+      padding: 20px;
+      box-shadow: none;
     }
   }
 }
@@ -177,4 +223,50 @@ span {
   color: #495057;
   background-color: #fff;
   border-color: #dee2e6;
+}
+.card-to-show {
+  background-color: #eeeeee;
+  margin-top: 75px;
+}
+.card-style {
+  justify-content: center;
+  .section-select {
+    padding: 30px;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ac89db;
+  }
+}
+.icon_active {
+  color: #4e2b83;
+  font-weight: bolder;
+}
+.header-text {
+  margin-top: 75px;
+  font-weight: 600;
+}
+.desktop,
+.mobile {
+  justify-content: center;
+}
+.size-col {
+  padding: 18px;
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.icon-size {
+  width: 75px;
+  height: auto;
+}
+.img-showtheme {
+  cursor: pointer;
+}
+.responsive {
+  cursor: pointer;
 }

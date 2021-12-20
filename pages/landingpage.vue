@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-main-page">
     <main-landingpage
       v-if="!this.$route.query.theme"
       :renderdata="renderdata"
@@ -35,7 +35,6 @@ export default {
     },
     showlanding(item) {
       this.$router.push(`/landingpage?theme=${item.title}`);
-      console.log(item);
     }
   }
 };

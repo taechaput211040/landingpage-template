@@ -1,7 +1,6 @@
 <template>
-  <div class="bg-page">
+  <div class="bg-main-page">
     <div class="bg-header">
-     
       <div class="bg-none"></div>
       <div class="show-mock">
         <div class="bg-showmock"></div>

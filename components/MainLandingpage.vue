@@ -1,6 +1,11 @@
 <template>
   <div class="container">
-    <div class="text-center p-md-4"><h1>Landing Page</h1></div>
+    <div class="text-center pt-5 "><h1>Landing Page</h1></div>
+
+    <div class="text-center py-5 font-weight-bold">
+      <h1>เลือก Landing Page</h1>
+     รับทำเว็บไซต์พนันออนไลน์ มีทุกค่าย ครบทุกเกมส์
+    </div>
     <div class="row">
       <div
         v-for="(item, index) in renderdata.landing_page"
@@ -26,7 +31,7 @@
             >
               <img
                 :src="landing.main_image"
-                class="img-fluid"
+                class="img-fluid img-showtheme"
                 @click="showlanding(index, landing)"
             /></b-tab>
           </b-tabs>
