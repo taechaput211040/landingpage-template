@@ -1,19 +1,19 @@
 <template>
   <div class="container">
-    <div class="text-center pt-5 "><h1>Landing Page</h1></div>
+    <div class="text-center pt-5 "><h1>Member Page</h1></div>
 
     <div class="text-center py-5 font-weight-bold">
-      <h1>เลือกหน้า Landing Page</h1>
+      <h1>เลือกหน้า Member</h1>
       รับทำเว็บไซต์พนันออนไลน์ มีทุกค่าย ครบทุกเกมส์
     </div>
     <div class="row">
       <div
-        v-for="(item, index) in renderdata.landing_page"
+        v-for="(item, index) in renderdata.Member"
         :key="index"
         class="col-md-4 col-12 py-4"
       >
         <div class="text-center">
-          <h3 class="text-uppercase">SB-{{ index }}</h3>
+          <h3 class="text-uppercase">SBM-{{ index }}</h3>
         </div>
 
         <div class="card p-md-3 p2">
@@ -31,12 +31,11 @@
             >
               <div class="text-center">
                 <img
-                  :src="landing.main_image"
+                  :src="landing.mock_image"
                   class="img-fluid img-showtheme"
                   @click="showlanding(index, landing)"
-                />
-              </div>
-            </b-tab>
+                /></div
+            ></b-tab>
           </b-tabs>
         </div>
       </div>
@@ -49,15 +48,9 @@ export default {
   props: {
     renderdata: {}
   },
-  data() {
-    return {
-      palaceshow: null
-    };
-  },
-  async beforeMount() {},
   methods: {
     showlanding(index, item) {
-      this.$router.push(`/landingpage?theme=${index}&palace=${item.name}`);
+      this.$router.push(`/memberpage?theme=${index}&palace=${item.name}`);
     }
   }
 };

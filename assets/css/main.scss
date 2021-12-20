@@ -52,6 +52,11 @@ span {
   }
 }
 @include media-breakpoint-down(md) {
+  .btn-back {
+    position: absolute;
+    left: 5px;
+    top: 0;
+  }
   .menu {
     display: none;
   }
@@ -67,6 +72,7 @@ span {
     min-height: 175px;
 
     .img-showmock {
+      max-height: 300px;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -86,11 +92,72 @@ span {
       padding: 20px;
     }
   }
+  .menu_mobile {
+    filter: invert(1);
+    .btn-mobile {
+      cursor: pointer;
+      height: 40px;
+      width: auto;
+    }
+    .btn-close {
+      cursor: pointer;
+      height: 24px;
+      width: auto;
+    }
+  }
+  .menu_right_mobile {
+    border-radius: 15px 0px 0 15px;
+    width: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: fixed;
+    right: -1px;
+    top: 15%;
+    z-index: 10;
+    font-size: 13px;
+    img {
+      width: 35px;
+      height: auto;
+    }
+    .list_menu {
+      cursor: pointer;
+      background: linear-gradient(45deg, #7122ab, #572978);
+      color: #fff;
+      padding: 10px;
+      width: 73px;
+      height: 80px;
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .active_menu_right {
+      background: linear-gradient(45deg, #b98017, #f8ac22);
+    }
+    .list_menu:hover {
+      background-color: #4e0a0a;
+    }
+  }
 }
 @include media-breakpoint-up(md) {
+  .menu_right_mobile {
+    display: none;
+  }
+  .menu_mobile {
+    display: none;
+  }
+  .btn-back {
+    position: absolute;
+    left: 40px;
+    top: 0;
+  }
   .menu {
     .btn-landing {
-      background: linear-gradient(#350974, #4f2b83);
+      background: linear-gradient(#350974, #572978);
       color: white;
       padding: 10px !important;
       font-weight: bold;
@@ -226,7 +293,7 @@ span {
 }
 .card-to-show {
   background-color: #eeeeee;
-  margin-top: 75px;
+  margin-top: 40px;
 }
 .card-style {
   justify-content: center;
@@ -246,8 +313,9 @@ span {
   font-weight: bolder;
 }
 .header-text {
-  margin-top: 75px;
+  margin-top: 90px;
   font-weight: 600;
+  position: relative;
 }
 .desktop,
 .mobile {
@@ -266,7 +334,13 @@ span {
 }
 .img-showtheme {
   cursor: pointer;
+  max-height: 180px;
+  width: auto;
 }
 .responsive {
   cursor: pointer;
+}
+
+.icon-back {
+  width: 27px;
 }

@@ -32,9 +32,6 @@ export default {
       } catch (err) {
         console.log(err);
       }
-    },
-    showlanding(item) {
-      this.$router.push(`/landingpage?theme=${item.title}`);
     }
   }
 };

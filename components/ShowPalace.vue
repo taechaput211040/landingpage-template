@@ -11,8 +11,11 @@
         />
       </div>
     </div>
-    <h3 v-if="dataselect" class="header-text text-center">
+    <h3 v-if="dataselect" class="header-text text-center container">
       {{ dataselect.title }}
+      <div @click="$router.push('/landingpage')" class="btn-back ">
+        <button class="btn btn-danger btn-sm">ย้อนกลับ</button>
+      </div>
     </h3>
     <div class="container card-to-show col-md-10">
       <div class="text-center">
