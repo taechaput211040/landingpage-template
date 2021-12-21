@@ -30,17 +30,17 @@
                       ? 'https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130236454c7ce5a4386845b29d43c9470cb581ec.png'
                       : 'https://image.smart-ai-api.com/public/image-storage-betkub/images/202108111004178f697ac870464ff49bf87aa9edce31b5.png'
                   "
-                  class="icon-size"
+                  class="icon-size responsive"
                 />
                 <div
-                  class="btn-size"
+                  class="btn-size responsive"
                   @click="showMock('desktop')"
                   :class="{ icon_active: showdesktop }"
                 >
                   <span>Desktop size</span>
                 </div>
               </div>
-              <div class="col-6 col-md-3 text-start responsive">
+              <div class="col-6 col-md-3 text-start ">
                 <img
                   @click="showMock('mobile')"
                   :src="
@@ -48,10 +48,10 @@
                       ? 'https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813023710aa92740f85b6416ebe6f399d35535ad9.png'
                       : 'https://image.smart-ai-api.com/public/image-storage-betkub/images/20210811100240e23ac73c1ec44300a6bddb8416cf8ead.png'
                   "
-                  class="icon-size"
+                  class="icon-size responsive"
                 />
                 <div
-                  class="btn-size"
+                  class="btn-size responsive"
                   @click="showMock('mobile')"
                   :class="{ icon_active: showmobile }"
                 >
