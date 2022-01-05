@@ -12,17 +12,20 @@ span {
   font-family: "kanit", sans-serif;
 }
 :root {
-  --bg_color_header: #f3f3f3;
-  --bg_show_mock: linear-gradient(#f3f3f3, #cfcfcf);
+  --bg_color_header: white;
+  --bg_show_mock: white;
 }
-
+.bg-main-page {
+  background-image: url("https://image.smart-ai-api.com/public/image-storage/demo-template-sale/BG.jpg");
+}
 .bg-header {
   background: var(--bg_color_header);
 }
 .menu_header {
+  box-shadow: 0px 4px 16px 0px #0000001a;
   z-index: 10;
   position: fixed;
-  background: var(--bg_color_header);
+  background: linear-gradient(180deg, rgb(239 225 245) 0%, rgb(255 255 255) 100%);
   top: 0;
   left: 0;
   right: 0;
@@ -39,19 +42,14 @@ span {
   height: 126px;
 }
 .show-mock {
-  position: relative;
   text-align: center;
-  background: var(--bg_show_mock);
-  min-height: 560px;
-
-  .img-showmock {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -40%);
-  }
 }
+
 @include media-breakpoint-down(md) {
+  .img-showmock {
+    margin-top: 70px;
+    width: 100%;
+  }
   .btn-back {
     position: absolute;
     left: 5px;
@@ -62,22 +60,8 @@ span {
   }
   .main-logo {
     height: 60px;
-    padding: 0 0 0 10px;
+    padding: 5px;
     cursor: pointer;
-  }
-  .show-mock {
-    position: relative;
-    text-align: center;
-    background: var(--bg_show_mock);
-    min-height: 175px;
-
-    .img-showmock {
-      max-height: 300px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -40%);
-    }
   }
   .set-position {
     box-shadow: -1px 4px 11px 5px rgb(0 0 0 / 11%);
@@ -144,6 +128,10 @@ span {
   }
 }
 @include media-breakpoint-up(md) {
+  .img-showmock {
+    margin-top: 100px;
+    width: 80%;
+  }
   .menu_right_mobile {
     display: none;
   }
@@ -157,25 +145,22 @@ span {
   }
   .menu {
     .btn-landing {
-      background: linear-gradient(#350974, #572978);
+      background: linear-gradient(256.46deg, #5f009b -24.55%, #a90fc2 37.91%, #500873 95.86%);
       color: white;
-      padding: 10px !important;
       font-weight: bold;
-      border-radius: 15px !important;
+      border-radius: 50px !important;
     }
     .btn-landing-seo {
-      background: linear-gradient(#4c4c4c, #838383);
+      background: linear-gradient(262.35deg, #9b0054 -4.74%, #de08a2 43.9%, #a50879 85.6%);
       color: white;
-      padding: 10px !important;
       font-weight: bold;
-      border-radius: 15px !important;
+      border-radius: 50px !important;
     }
     .btn-member {
-      background: linear-gradient(#f39200, #ffdb77);
-      color: rgb(0, 0, 0);
+      background: linear-gradient(259.13deg, #fff500 -9.97%, #ffc701 43.31%, #f7980b 92.75%);
+      color: rgb(255, 255, 255);
       font-weight: bold;
-      padding: 10px !important;
-      border-radius: 15px !important;
+      border-radius: 50px !important;
     }
     .btn-landing:hover,
     .btn-landing-seo:hover,
@@ -190,19 +175,7 @@ span {
     height: 95px;
     padding: 10px;
   }
-  .show-mock {
-    position: relative;
-    text-align: center;
-    background: var(--bg_show_mock);
-    min-height: 375px;
 
-    .img-showmock {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -40%);
-    }
-  }
   .set-position {
     box-shadow: -1px 4px 11px 5px rgb(0 0 0 / 11%);
     right: 0;
@@ -217,20 +190,8 @@ span {
     }
   }
 }
-@include media-breakpoint-up(lg) {
-  .show-mock {
-    position: relative;
-    text-align: center;
-    background: var(--bg_show_mock);
-    min-height: 500px;
 
-    .img-showmock {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -40%);
-    }
-  }
+@include media-breakpoint-up(lg) {
   .set-position {
     padding: 10px;
     width: 300px;
@@ -253,13 +214,20 @@ span {
   display: flex;
   justify-content: center;
 }
+.description {
+  color: #4d4d4d;
+}
+.header-content-feature {
+  font-weight: bold;
+  color: #582a79;
+}
 .header-content {
   font-weight: bold;
 }
 .show-feature {
   .card-feature {
     padding: 20px;
-    background: #cfcfcf;
+    background-image: url("https://image.smart-ai-api.com/public/image-storage/demo-template-sale/bgcardfeature.png");
     width: 100%;
     height: 200px;
     display: flex;
@@ -267,8 +235,10 @@ span {
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 28%) !important;
     border-radius: 15px;
+    background-size: 110% 110%;
+    background-position: center;
   }
   .feature {
     width: 100px;
