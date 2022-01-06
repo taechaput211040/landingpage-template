@@ -657,5 +657,78 @@
         ]
       }
     ]
+  },
+
+  "features": {
+    "normal_feature": [
+      {
+        "name": "วงล้อ พารวย",
+        "eng_name": "LUCKY WHEEL",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/spin1.png",
+        "status": 1
+      },
+      {
+        "name": "เปิดไพ่ ลุ้นโชค",
+        "eng_name": "LUCKY CARDS",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/Lucky-Card_icon.png",
+        "status": 0
+      },
+      {
+        "name": "เช็คอิน รายวัน ",
+        "eng_name": "DAILY CHECK IN",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/Check-In_icon.png",
+        "status": 0
+      },
+      {
+        "name": "ลิงค์รับทรัพย์",
+        "eng_name": "AFFILIATE",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/treasure-chest 1.png",
+        "status": 0
+      }
+    ],
+    "group_feature": [
+      {
+        "name": "คาสิโน",
+        "eng_name": "CASINO",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/icon/playing-cards.png",
+        "status": 1
+      },
+      {
+        "name": "สล็อต",
+        "eng_name": "SLOT GAME",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/icon/slot-machine.png",
+        "status": 1
+      },
+      {
+        "name": "กีฬา",
+        "eng_name": "SPORT GAME",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/icon/soccer-player.png",
+        "status": 1
+      },
+      {
+        "name": "แข่งม้า",
+        "eng_name": "HORSE RIDDING",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/icon/horse.png",
+        "status": 1
+      },
+      {
+        "name": "E-SPORT",
+        "eng_name": "E-SPORT GAME",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/icon/esport.png",
+        "status": 1
+      },
+      {
+        "name": "ยิงปลา",
+        "eng_name": "FISHING",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/icon/fishing.png",
+        "status": 1
+      },
+      {
+        "name": "ล๊อตเตอรี่",
+        "eng_name": "LOTTO",
+        "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/icon/lottery.png",
+        "status": 0
+      }
+    ]
   }
 }

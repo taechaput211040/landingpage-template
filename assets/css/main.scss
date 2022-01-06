@@ -18,14 +18,12 @@ span {
 .bg-main-page {
   background-image: url("https://image.smart-ai-api.com/public/image-storage/demo-template-sale/BG.jpg");
 }
-.bg-header {
-  background: var(--bg_color_header);
-}
+
 .menu_header {
   box-shadow: 0px 4px 16px 0px #0000001a;
   z-index: 10;
   position: fixed;
-  background: linear-gradient(180deg, rgb(239 225 245) 0%, rgb(255 255 255) 100%);
+  background: linear-gradient(180deg, #fbefff 0%, white 100%);
   top: 0;
   left: 0;
   right: 0;
@@ -44,8 +42,19 @@ span {
 .show-mock {
   text-align: center;
 }
-
+.img-feature {
+  width: 110px;
+}
 @include media-breakpoint-down(md) {
+  .red_chip_two {
+    display: none;
+  }
+  .text-welcome {
+    text-align: center;
+  }
+  .red_chip {
+    display: none;
+  }
   .img-showmock {
     margin-top: 70px;
     width: 100%;
@@ -127,7 +136,24 @@ span {
     }
   }
 }
+.show-tocard {
+  position: relative;
+}
 @include media-breakpoint-up(md) {
+  .red_chip_two {
+    position: absolute;
+    z-index: 5;
+    top: -20px;
+    width: 79px;
+    left: 16px;
+  }
+  .red_chip {
+    position: absolute;
+    z-index: 5;
+    top: -20px;
+    width: 80px;
+    right: 0;
+  }
   .img-showmock {
     margin-top: 100px;
     width: 80%;
@@ -145,19 +171,35 @@ span {
   }
   .menu {
     .btn-landing {
-      background: linear-gradient(256.46deg, #5f009b -24.55%, #a90fc2 37.91%, #500873 95.86%);
+      background: linear-gradient(
+        256.46deg,
+        #572978 -24.55%,
+        #7f3baf 37.91%,
+        #500873 95.86%
+      );
+
       color: white;
       font-weight: bold;
       border-radius: 50px !important;
     }
     .btn-landing-seo {
-      background: linear-gradient(262.35deg, #9b0054 -4.74%, #de08a2 43.9%, #a50879 85.6%);
+      background: linear-gradient(
+        256.46deg,
+        #572978 -24.55%,
+        #7f3baf 37.91%,
+        #500873 95.86%
+      );
       color: white;
       font-weight: bold;
       border-radius: 50px !important;
     }
     .btn-member {
-      background: linear-gradient(259.13deg, #fff500 -9.97%, #ffc701 43.31%, #f7980b 92.75%);
+      background: linear-gradient(
+        259.13deg,
+        #fff500 -9.97%,
+        #ffc701 43.31%,
+        #f7980b 92.75%
+      );
       color: rgb(255, 255, 255);
       font-weight: bold;
       border-radius: 50px !important;
@@ -192,6 +234,20 @@ span {
 }
 
 @include media-breakpoint-up(lg) {
+  .red_chip_two {
+    position: absolute;
+    z-index: 5;
+    top: -20px;
+    width: 130px;
+    left: 0;
+  }
+  .red_chip {
+    position: absolute;
+    z-index: 5;
+    top: -36px;
+    width: 155px;
+    right: 0;
+  }
   .set-position {
     padding: 10px;
     width: 300px;
@@ -215,7 +271,7 @@ span {
   justify-content: center;
 }
 .description {
-  color: #4d4d4d;
+  color: #8b8b8b;
 }
 .header-content-feature {
   font-weight: bold;
@@ -224,18 +280,23 @@ span {
 .header-content {
   font-weight: bold;
 }
+.commingsoon {
+  position: absolute;
+  top: 1px;
+  height: 35px;
+}
 .show-feature {
   .card-feature {
-    padding: 20px;
+    padding: 15px;
     background-image: url("https://image.smart-ai-api.com/public/image-storage/demo-template-sale/bgcardfeature.png");
     width: 100%;
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 28%) !important;
+    box-shadow: 0px 2px 6px 1px rgb(0 0 0 / 24%) !important;
     border-radius: 15px;
     background-size: 110% 110%;
     background-position: center;
@@ -247,13 +308,13 @@ span {
     background: #ffffff;
   }
 }
-.card-welcome {
-  display: flex;
-  justify-content: center;
-  background: #cfcfcf;
-  text-align: center;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
-  border-radius: 15px;
+.title-feature {
+  font-weight: bolder;
+  font-size: 23px;
+}
+.text-descrpit {
+  font-size: 15px;
+  color: #858585;
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
@@ -313,4 +374,130 @@ span {
 
 .icon-back {
   width: 27px;
+}
+.bg-section-card {
+  background-size: cover;
+  background-image: url("https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/bg_section.png");
+}
+.slick-arrow {
+  display: none !important;
+}
+.text-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-first {
+  color: #582a79;
+  font-weight: bolder;
+}
+.text-second {
+  color: #ffc701;
+  font-weight: bolder;
+}
+.bg-sectiongame {
+  text-align: center;
+  position: relative;
+  .header-text-game {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+@include media-breakpoint-down(sm) {
+  .desktopshow {
+    display: none;
+  }
+  .mobiletopshow {
+    font-size: 30px;
+    width: 100%;
+  }
+  .img-feature {
+    width: 85px;
+  }
+  .show-feature .card-feature .commingsoon {
+    position: absolute;
+    height: 33px;
+  }
+  .show-feature .card-feature,
+  .show-game-main .card-feature-game {
+    height: 200px !important;
+  }
+}
+@include media-breakpoint-up(sm) {
+  .mobiletopshow {
+    display: none;
+  }
+}
+.show-game-main {
+  margin-top: -65px;
+  .card-feature-game {
+    padding: 15px;
+    width: 100%;
+    background-color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    box-shadow: 0px 2px 6px 1px rgb(0 0 0 / 24%) !important;
+    border-radius: 15px;
+    background-size: 110% 110%;
+    background-position: center;
+  }
+}
+.card-welcome {
+  position: relative;
+}
+.nav-tabs {
+  border-bottom: none !important;
+}
+.nav-tabs .nav-link {
+  border: none !important;
+}
+
+.colorpalace {
+  background-color: black;
+  color: white;
+
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showpalace {
+  overflow-x: hidden;
+  width: 0px;
+  transition: 0.4s;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  color: black;
+}
+.card-menutap {
+  background-color: #ebebeb;
+  border-radius: 50px;
+}
+.colorpalace:hover + .showpalace,
+.showpalace:hover {
+  width: 70px;
+  transition: 0.4s;
+}
+.nav-link {
+  display: block;
+  padding: 6px 6px !important;
+}
+
+.active_menu_palate {
+  width: 70px !important;
+  transition: 0.4s;
+}
+.active_defaut {
+  width: 70px !important;
+  transition: 0.4s;
 }

@@ -12,29 +12,40 @@
         :key="index"
         class="col-md-4 col-12 py-4"
       >
-        <div class="text-center">
-          <h3 class="text-uppercase">SB-{{ index }}</h3>
-        </div>
-
-        <div class="card p-md-3 p2">
+        <div class="p-md-3 p2">
           <b-tabs
             align="center"
             end
-            active-nav-item-class="text-success font-weight-bold text-uppercase"
+            active-nav-item-class="text-success font-weight-bold"
             content-class="mt-3"
           >
-            <b-tab
-              content-class="mt-3"
-              v-for="(landing, i) in item"
-              :key="i"
-              :title="landing.name"
-            >
+            <b-tab content-class="mt-3" v-for="(landing, i) in item" :key="i"
+              ><template #title>
+                <div
+                  class="d-flex card-menutap"
+                  @click="setpalace(landing.title)"
+                >
+                  <div class="colorpalace">สี</div>
+                  <div
+                    class="showpalace"
+                    :class="{ active_menu_palate: landing.title == palaceshow }"
+                  >
+                    {{ landing.name }}
+                  </div>
+                </div>
+              </template>
+
               <div class="text-center">
                 <img
                   :src="landing.main_image"
                   class="img-fluid img-showtheme"
                   @click="showlanding(index, landing)"
                 />
+                <div class="text-center my-3">
+                  <h3 class="text-uppercase" style="font-weight: bold;">
+                    SB-{{ index }}
+                  </h3>
+                </div>
               </div>
             </b-tab>
           </b-tabs>
@@ -58,6 +69,9 @@ export default {
   methods: {
     showlanding(index, item) {
       this.$router.push(`/landingpage?theme=${index}&palace=${item.name}`);
+    },
+    setpalace(palace) {
+      this.palaceshow = palace;
     }
   }
 };

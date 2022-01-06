@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="menu_header">
-      <div class="header-show container d-flex ">
+      <div class="header-show container">
         <nuxt-link to="/" class="logo">
           <img
             src="https://image.smart-ai-api.com/public/image-storage-betkub/images/20210811100859a9261ec6ff414acaaaa677c9ad7c83a7.png"
