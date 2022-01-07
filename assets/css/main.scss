@@ -400,7 +400,7 @@ span {
   position: relative;
   .header-text-game {
     position: absolute;
-    top: 50px;
+    top: 30px;
     left: 50%;
     transform: translate(-50%, 0);
   }
@@ -459,9 +459,7 @@ span {
 }
 
 .colorpalace {
-  background-color: black;
   color: white;
-
   width: 40px;
   height: 40px;
   display: flex;
@@ -480,6 +478,7 @@ span {
   color: black;
 }
 .card-menutap {
+  padding: 3px;
   background-color: #ebebeb;
   border-radius: 50px;
 }
@@ -500,4 +499,8 @@ span {
 .active_defaut {
   width: 70px !important;
   transition: 0.4s;
+}
+.nav-tabs .nav-link {
+  border: none !important;
+  background: none !important;
 }

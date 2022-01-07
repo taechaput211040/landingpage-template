@@ -5,7 +5,7 @@
         "name": "palate1",
         "title": "Theme1 > Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044028cc843605ec28448d9b5b11f4624c67e0.png",
-
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t1p1.png",
         "image": [
           {
             "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044022ec6a06e70b2645248590cfb50343b6a7.jpg",
@@ -39,7 +39,7 @@
         "name": "palate2",
         "title": "Theme1 > Palate2",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044154734770ebda0842ee98a0dc3b10b67544.png",
-
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t1p2.png",
         "image": [
           {
             "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044434ae797fd7f0f14730a5abd537c087bb04.png",
@@ -73,7 +73,7 @@
         "name": "palate3",
         "title": "Theme1 > Palate3",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044259908c25a13a584146977e511361a05c99.png",
-
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t1p3.png",
         "image": [
           {
             "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130442550d9bd2fda71b42f9807895085bc1bfe7.png",
@@ -109,7 +109,7 @@
         "name": "palate1",
         "title": "Theme4 > Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130444233c80fc0c68e445c39f4ed1d62e0bc270.png",
-
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t4p1.png",
         "image": [
           {
             "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044556aab2a6bfd9b44ce2a0cd4aa79ee2b4bb.png",
@@ -143,7 +143,7 @@
         "name": "palate2",
         "title": "Theme4 > Palate2",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130445386a249f364831483283fe61cc8796fc4c.png",
-
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t4p2.png",
         "image": [
           {
             "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081304464570744e437fc24fa1b17431d6ca8e3aa4.png",
@@ -177,7 +177,7 @@
         "name": "palate3",
         "title": "Theme4 > Palate3",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044607fe20cedc179a4ec0afe73e9066b6bfed.png",
-
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t4p3.png",
         "image": [
           {
             "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130447285f4b760a8f424dc09b1f03fcf7ec6384.png",
@@ -214,7 +214,7 @@
         "name": "palate1",
         "title": "Theme5 > Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081305280356689f60761c4c909c0abb2e19408a14.png",
-
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t5p1.png",
         "image": [
           {
             "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130448472e95590c63044511a2278f1aa5d38282.jpg",
@@ -250,7 +250,7 @@
         "name": "palate1",
         "title": "Theme6 > Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/winbet/mock%20up-landing%20page-theme6.png",
-
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t6p1(1).png",
         "image": [
           {
             "main_DT": "",
@@ -279,7 +279,6 @@
             "login_MB": ""
           }
         ],
-
         "description": ""
       }
     ],
@@ -288,7 +287,7 @@
         "name": "palate1",
         "title": "Theme7 > Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/betflixs/mock%20up-landing%20page-theme7.png",
-
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t7p1.png",
         "image": [
           {
             "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/betflixs/landingpage/dt/dt-main.jpg",
@@ -326,7 +325,7 @@
         "name": "palate1",
         "title": "Theme8 > Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/lisa/mock-up-dt_Lisa118.png",
-
+        "color": "",
         "image": [
           {
             "main_DT": "",
@@ -364,7 +363,7 @@
         "name": "palate1",
         "title": "Theme9 > Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/lisa/mock-up-dt_Lisa118.png",
-
+        "color": "",
         "image": [
           {
             "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/dt/dt_main.jpg",

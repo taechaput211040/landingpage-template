@@ -25,7 +25,7 @@
                   class="d-flex card-menutap"
                   @click="setpalace(landing.title)"
                 >
-                  <div class="colorpalace">สี</div>
+                  <div class="colorpalace"><img :src="landing.color" class="img-fluid" /></div>
                   <div
                     class="showpalace"
                     :class="{ active_menu_palate: landing.title == palaceshow }"

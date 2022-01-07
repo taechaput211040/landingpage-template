@@ -94,12 +94,12 @@
       </div>
 
       <img
-        src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/bgsectiongame.png"
+        src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/bgsectiongame2.png"
         alt=""
         class="img-fluid desktopshow"
       />
       <img
-        src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/bggamemobile.png"
+        src="https://image.smart-ai-api.com/public/thongtest/mbbgsectiongame.png"
         alt=""
         class="img-fluid mobiletopshow"
       />
