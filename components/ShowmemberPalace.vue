@@ -12,10 +12,20 @@
         </div>
       </div>
     </div>
-   <h3 v-if="dataselect" class="header-text text-center container">
+    <h3 v-if="dataselect" class="header-text text-center container">
       {{ dataselect.title }}
-      <div @click="$router.push('/memberpage')" class="btn-back ">
-        <button class="btn btn-danger btn-sm">ย้อนกลับ</button>
+
+      <div @click="$router.push('/memberpage')" class="btn-back my-2">
+        <img
+          src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/LDP_Button.png"
+          class="img-fluid img_backbtn desktopshow"
+        />
+      </div>
+      <div @click="$router.push('/memberpage')" class="btn-back my-2">
+        <img
+          src=" https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/btnback.png"
+          class="img-fluid img_backbtn mobiletopshow"
+        />
       </div>
     </h3>
     <div class="container card-to-show col-md-10">

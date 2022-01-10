@@ -61,8 +61,11 @@ span {
   }
   .btn-back {
     position: absolute;
-    left: 5px;
-    top: 0;
+    left: 6px;
+    top: -10px;
+    .img_backbtn {
+      height: 34px;
+    }
   }
   .menu {
     display: none;
@@ -167,7 +170,10 @@ span {
   .btn-back {
     position: absolute;
     left: 40px;
-    top: 0;
+    top: -5px;
+    .img_backbtn {
+      height: 44px;
+    }
   }
   .menu {
     .btn-landing {

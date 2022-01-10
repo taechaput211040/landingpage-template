@@ -198,8 +198,8 @@
       </div>
     </div>
     <template>
-      <div class="set-position">
-        <div class="card-expanding">
+      <div class="set-position" v-if="dataselect.description">
+        <div class="card-expanding" >
           <div class="font-bold" v-html="dataselect.description"></div>
         </div>
       </div>
