@@ -31,9 +31,7 @@
             "contact_MB": "",
             "question_MB": ""
           }
-        ],
-
-        "description": "-logo เปลี่ยนได้ ขนาด 355x355px<br>-icon เปลี่ยนได้ ขนาด 100x100px<br>-Button เปลี่ยนได้ ขนาด 264x64px<br>-Banner เปลี่ยนได้ ขนาด 1920x500px <br>-QRcode เปลี่ยนได้ ขนาด 410x410px <br><br> *ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้"
+        ]
       },
       {
         "name": "palate2",
@@ -65,9 +63,7 @@
             "contact_MB": "",
             "question_MB": ""
           }
-        ],
-
-        "description": "-logo เปลี่ยนได้ ขนาด 355x355px<br>-icon เปลี่ยนได้ ขนาด 100x100px<br>-Button เปลี่ยนได้ ขนาด 264x64px<br>-Banner เปลี่ยนได้ ขนาด 1920x500px <br>-QRcode เปลี่ยนได้ ขนาด 410x410px <br><br>*ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้"
+        ]
       },
       {
         "name": "palate3",
@@ -99,9 +95,7 @@
             "contact_MB": "",
             "question_MB": ""
           }
-        ],
-
-        "description": "-logo เปลี่ยนได้ ขนาด 355x355px<br>-icon เปลี่ยนได้ ขนาด 100x100px<br>-Button เปลี่ยนได้ ขนาด 264x64px<br>-Banner เปลี่ยนได้ ขนาด 1920x500px <br>-QRcode เปลี่ยนได้ ขนาด 410x410px <br><br> *ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้"
+        ]
       }
     ],
     "theme4": [
@@ -135,9 +129,7 @@
             "contact_MB": "",
             "question_MB": ""
           }
-        ],
-
-        "description": "-logo เปลี่ยนได้ ขนาด 953x200px<br>-icon เปลี่ยนได้ ขนาด 100x100px <br>-Banner เปลี่ยนได้ ขนาด 1920x500px <br>-Mockup เปลี่ยนได้ ขนาด 1188x61px ไฟล์ png <br><br>*ขนาด logo สามารถปรับได้ตามความสวยงาม  สีหรือภาพพื้นหลังสามารถเปลี่ยนได้"
+        ]
       },
       {
         "name": "palate2",
@@ -169,9 +161,7 @@
             "contact_MB": "",
             "question_MB": ""
           }
-        ],
-
-        "description": "-logo เปลี่ยนได้ ขนาด 953x200px<br>-icon เปลี่ยนได้ ขนาด 100x100px <br>-Banner เปลี่ยนได้ ขนาด 1920x500px <br>-Mockup เปลี่ยนได้ ขนาด 1188x61px ไฟล์ png <br><br>*ขนาด logo สามารถปรับได้ตามความสวยงาม  สีหรือภาพพื้นหลังสามารถเปลี่ยนได้"
+        ]
       },
       {
         "name": "palate3",
@@ -203,9 +193,7 @@
             "contact_MB": "",
             "question_MB": ""
           }
-        ],
-
-        "description": "-logo เปลี่ยนได้ ขนาด 953x200px<br>-icon เปลี่ยนได้ ขนาด 100x100px <br>-Banner เปลี่ยนได้ ขนาด 1920x500px <br>-Mockup เปลี่ยนได้ ขนาด 1188x61px ไฟล์ png <br><br>*ขนาด logo สามารถปรับได้ตามความสวยงาม  สีหรือภาพพื้นหลังสามารถเปลี่ยนได้"
+        ]
       }
     ],
 
@@ -240,160 +228,7 @@
             "contact_MB": "",
             "question_MB": ""
           }
-        ],
-
-        "description": "-logo เปลี่ยนได้ ขนาด 414x437px  <br> -icon เปลี่ยนได้ ขนาด 100x100px   <br> -Button เปลี่ยนได้ ขนาด 264x64px      <br>   -Video เปลี่ยนได้ video ขนาด 403x260px  ไฟล์ ไม่เกิน 10 MB        <br> -Banner เปลี่ยนได้ ขนาด 1920x500px , 1024x628px       <br>  -QRcode เปลี่ยนได้ ขนาด 125x125px <br> <br>     *ขนาด logo สามารถปรับได้ตามความสวยงาม      สีหรือภาพพื้นหลังสามารถเปลี่ยนได้"
-      }
-    ],
-    "theme6": [
-      {
-        "name": "palate1",
-        "title": "Theme6 > Palate1",
-        "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/winbet/mock%20up-landing%20page-theme6.png",
-        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t6p1(1).png",
-        "image": [
-          {
-            "main_DT": "",
-            "sport_DT": "",
-            "casino_DT": "",
-            "slot_DT": "",
-            "horse_DT": "",
-            "esport_DT": "",
-            "promotion_DT": "",
-            "credit_DT": "",
-            "contact_DT": "",
-            "question_DT": "",
-            "login_DT": ""
-          },
-          {
-            "main_MB": "",
-            "sport_MB": "",
-            "casino_MB": "",
-            "slot_MB": "",
-            "horse_MB": "",
-            "esport_MB": "",
-            "promotion_MB": "",
-            "credit_MB": "",
-            "contact_MB": "",
-            "question_MB": "",
-            "login_MB": ""
-          }
-        ],
-        "description": ""
-      }
-    ],
-    "theme7": [
-      {
-        "name": "palate1",
-        "title": "Theme7 > Palate1",
-        "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/betflixs/mock%20up-landing%20page-theme7.png",
-        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t7p1.png",
-        "image": [
-          {
-            "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/betflixs/landingpage/dt/dt-main.jpg",
-            "sport_DT": "",
-            "casino_DT": "",
-            "slot_DT": "",
-            "horse_DT": "",
-            "esport_DT": "",
-            "promotion_DT": "",
-            "credit_DT": "",
-            "contact_DT": "",
-            "question_DT": "",
-            "login_DT": ""
-          },
-          {
-            "main_MB": "",
-            "sport_MB": "",
-            "casino_MB": "",
-            "slot_MB": "",
-            "horse_MB": "",
-            "esport_MB": "",
-            "promotion_MB": "",
-            "credit_MB": "",
-            "contact_MB": "",
-            "question_MB": "",
-            "login_MB": ""
-          }
-        ],
-
-        "description": ""
-      }
-    ],
-    "theme8": [
-      {
-        "name": "palate1",
-        "title": "Theme8 > Palate1",
-        "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/lisa/mock-up-dt_Lisa118.png",
-        "color": "",
-        "image": [
-          {
-            "main_DT": "",
-            "sport_DT": "",
-            "casino_DT": "",
-            "slot_DT": "",
-            "horse_DT": "",
-            "esport_DT": "",
-            "promotion_DT": "",
-            "credit_DT": "",
-            "contact_DT": "",
-            "question_DT": "",
-            "login_DT": ""
-          },
-          {
-            "main_MB": "",
-            "sport_MB": "",
-            "casino_MB": "",
-            "slot_MB": "",
-            "horse_MB": "",
-            "esport_MB": "",
-            "promotion_MB": "",
-            "credit_MB": "",
-            "contact_MB": "",
-            "question_MB": "",
-            "login_MB": ""
-          }
-        ],
-
-        "description": ""
-      }
-    ],
-    "theme9": [
-      {
-        "name": "palate1",
-        "title": "Theme9 > Palate1",
-        "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/lisa/mock-up-dt_Lisa118.png",
-        "color": "",
-        "image": [
-          {
-            "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/dt/dt_main.jpg",
-            "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/dt/dt_sport.jpg",
-            "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/dt/dt_casino.jpg",
-            "slot_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/dt/dt_slot.jpg",
-            "horse_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/dt/dt_horse.jpg",
-            "esport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/dt/dt_esport.jpg",
-            "promotion_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/dt/dt_promotion.jpg",
-            "credit_DT": "",
-            "contact_DT": "",
-            "question_DT": "",
-            "login_DT": ""
-          },
-          {
-            "main_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/mb/mb_main.jpg",
-            "sport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/mb/mb_sport.jpg",
-            "casino_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/mb/mb_casino.jpg",
-            "slot_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/mb/mb_slot.jpg",
-            "horse_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/mb/mb_horse.jpg",
-            "esport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/mb/mb_e-sport.jpg",
-            "promotion_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/autobet/landingpage/mb/mb_promotion.jpg",
-            "credit_MB": "",
-            "contact_MB": "",
-            "question_MB": "",
-            "login_MB": ""
-          }
-        ],
-
-        "description": ""
+        ]
       }
     ]
   },
@@ -403,7 +238,7 @@
         "name": "palate1",
         "title": "Theme1 > Palate1",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/MockUp_Theme1-member-palate1_Dt.png",
-        "description": "-logo เปลี่ยนได้ ขนาด 414x437px <br>  -icon เปลี่ยนได้ ขนาด 100x100px <br>  -Button เปลี่ยนได้ ขนาด 264x64px <br>  -Banner เปลี่ยนได้ ขนาด 575x500px<br> <br> *ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m1p1.png",
         "image": [
           {
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081306063907cbff1aadf2443b81e9730e1373b576.png",
@@ -439,7 +274,7 @@
         "name": "palate2",
         "title": "Theme1 > Palate2",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055315d04ab149241a423682e4dabd66c56155.png",
-        "description": "-logo เปลี่ยนได้ ขนาด 486x164px <br> -icon เปลี่ยนได้ ขนาด 100x100px <br>-Banner เปลี่ยนได้ ขนาด 600x600px,<br><br>*ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m1p2.png",
         "image": [
           {
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130621525023091e86a0448b96777ca9b49e58eb.png",
@@ -475,7 +310,7 @@
         "name": "palate3",
         "title": "Theme1 > Palate3",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055341c9dd350bb219424193f49a83792587b8.png",
-        "description": "-logo เปลี่ยนได้ ขนาด 1190x164px <br>-icon เปลี่ยนได้ ขนาด 100x100px <br>-Banner เปลี่ยนได้ ขนาด 575x500px<br><br>*ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m1p3.png",
         "image": [
           {
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130633457fc311539be84284a8dc06e27be00bda.png",
@@ -513,7 +348,7 @@
         "name": "palate1",
         "title": "Theme4 > Palate1",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055711077b0d3e5f9f4334a6cbafd9f04f7366.png",
-        "description": "-logo เปลี่ยนได้ ขนาด 953x200px <br>-icon เปลี่ยนได้ ขนาด 100x100px<br>-Banner เปลี่ยนได้ ขนาด 1040x1040px<br> <br>*ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m2p1.png",
         "image": [
           {
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813071123a5bfa63b906f4f8aacd10bab34a6ce27.png",
@@ -549,7 +384,7 @@
         "name": "palate2",
         "title": "Theme4 > Palate2",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130557313bb6444163c54165934a3af022faf62b.png",
-        "description": "-logo เปลี่ยนได้ ขนาด 953x200px <br>-icon เปลี่ยนได้ ขนาด 100x100px<br>-Banner เปลี่ยนได้ ขนาด 1040x1040px<br> <br>  *ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m2p2.png",
         "image": [
           {
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081307440266b1c06e0eeb419788dc421c03a8e20c.png",
@@ -585,7 +420,7 @@
         "name": "palate3",
         "title": "Theme4 > Palate3",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055754805f1d80999f4bd5a135a3e45f082dde.png",
-        "description": "-logo เปลี่ยนได้ ขนาด 953x200px <br>-icon เปลี่ยนได้ ขนาด 100x100px<br>-Banner เปลี่ยนได้ ขนาด 1040x1040px<br> <br>  *ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m2p3.png",
         "image": [
           {
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813075653ba5aada0c3a443db8408a1bc7c7a9830.png",
@@ -614,44 +449,6 @@
             "withdraw_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130843218812acf2dfca476fad98ee2c8674d44d.png",
             "history_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108180320329ebc924438a7423fb977245b3707e54a.PNG",
             "change_password_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108180321133dbbb909f3f6488eadbc98e1d8fbba07.PNG"
-          }
-        ]
-      }
-    ],
-    "theme5": [
-      {
-        "name": "palate1",
-        "title": "Theme5 > Palate1",
-        "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055711077b0d3e5f9f4334a6cbafd9f04f7366.png",
-        "description": "-logo เปลี่ยนได้ ขนาด 953x200px <br>-icon เปลี่ยนได้ ขนาด 100x100px<br>-Banner เปลี่ยนได้ ขนาด 1040x1040px<br> <br>*ขนาด logo สามารถปรับได้ตามความสวยงาม สีหรือภาพพื้นหลังสามารถเปลี่ยนได้",
-        "image": [
-          {
-            "login_DT": "",
-            "register1_DT": "",
-            "register2_DT": "",
-            "register_promotion_DT": "",
-            "main_image_DT": "",
-            "game1_DT": "",
-            "game2_DT": "",
-            "promotion_DT": "",
-            "deposit_DT": "",
-            "withdraw_DT": "",
-            "history_DT": "",
-            "change_password_DT": ""
-          },
-          {
-            "login_MB": "",
-            "register1_MB": "",
-            "register2_MB": "",
-            "register_promotion_MB": "",
-            "main_image_MB": "",
-            "game1_MB": "",
-            "game2_MB": "",
-            "promotion_MB": "",
-            "deposit_MB": "",
-            "withdraw_MB": "",
-            "history_MB": "",
-            "change_password_MB": ""
           }
         ]
       }

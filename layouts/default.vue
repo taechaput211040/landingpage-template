@@ -49,27 +49,30 @@
     <div class="menu_right_mobile" id="menu-right">
       <div
         class="list_menu"
-        @click="$router.push('/landingpage')"
+        @click="$router.push('/landingpage') & closeNav()"
         :class="{ active_menu_right: this.$route.name == 'landingpage' }"
       >
         <div class="py-1">Landing Page</div>
       </div>
       <div
         class="list_menu"
-        @click="$router.push('/seopage')"
+        @click="$router.push('/seopage') & closeNav()"
         :class="{ active_menu_right: this.$route.name == 'seopage' }"
       >
         <div class="py-1">landing Page(SEO)</div>
       </div>
       <div
         class="list_menu"
-        @click="$router.push('/memberpage')"
+        @click="$router.push('/memberpage') & closeNav()"
         :class="{ active_menu_right: this.$route.name == 'memberpage' }"
       >
         <div class="py-1">Member Page</div>
       </div>
     </div>
     <Nuxt />
+    <div class="footer">
+      © Copyright All reserve SMARTBET
+    </div>
   </div>
 </template>
 

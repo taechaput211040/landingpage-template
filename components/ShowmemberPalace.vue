@@ -1,7 +1,6 @@
 <template>
   <div class="bg-page" v-if="dataselect">
     <div class="bg-header">
-      <div class="bg-none"></div>
       <div class="show-mock">
         <div class="bg-showmock">
           <img
@@ -262,13 +261,13 @@
         <!-- desktop -->
       </div>
     </div>
-    <template>
+    <!-- <template>
       <div class="set-position">
         <div class="card-expanding">
           <div class="font-bold" v-html="dataselect.description"></div>
         </div>
       </div>
-    </template>
+    </template> -->
   </div>
 </template>
 

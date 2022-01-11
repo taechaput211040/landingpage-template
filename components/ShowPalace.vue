@@ -1,7 +1,6 @@
 <template>
   <div class="bg-page" v-if="dataselect">
     <div class="bg-header ">
-      <div class="bg-none"></div>
       <div class="show-mock">
         <div class="bg-showmock"></div>
         <img
@@ -13,8 +12,18 @@
     </div>
     <h3 v-if="dataselect" class="header-text text-center container">
       {{ dataselect.title }}
-      <div @click="$router.push('/landingpage')" class="btn-back ">
-        <button class="btn btn-danger btn-sm">ย้อนกลับ</button>
+
+      <div @click="$router.push('/landingpage')" class="btn-back my-2">
+        <img
+          src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/LDP_Button.png"
+          class="img-fluid img_backbtn desktopshow"
+        />
+      </div>
+      <div @click="$router.push('/landingpage')" class="btn-back my-2">
+        <img
+          src=" https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/btnback.png"
+          class="img-fluid img_backbtn mobiletopshow"
+        />
       </div>
     </h3>
     <div class="container card-to-show col-md-10">
@@ -64,61 +73,43 @@
                 class="desktop row pt-4 font-weight-bold align"
                 v-if="showdesktop == true"
               >
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.main_DT">
+                <div class="col-12 size-col mt-2" v-if="item.main_DT">
                   หน้าหลัก
                   <img :src="item.main_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.sport_DT">
+                <div class="col-12  size-col mt-2" v-if="item.sport_DT">
                   Sport
                   <img :src="item.sport_DT" class="img-fluid  " alt="" />
                 </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.casino_DT"
-                >
+                <div class="col-12 size-col mt-2" v-if="item.casino_DT">
                   Casino
                   <img :src="item.casino_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.slot_DT">
+                <div class="col-12 size-col mt-2" v-if="item.slot_DT">
                   Slot
                   <img :src="item.slot_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.horse_DT">
+                <div class="col-12 size-col mt-2" v-if="item.horse_DT">
                   Horse
                   <img :src="item.horse_DT" class="img-fluid  " alt="" />
                 </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.esport_DT"
-                >
+                <div class="col-12 size-col mt-2" v-if="item.esport_DT">
                   E-sport
                   <img :src="item.esport_DT" class="img-fluid  " alt="" />
                 </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.promotion_DT"
-                >
+                <div class="col-12  size-col mt-2" v-if="item.promotion_DT">
                   Promotion
                   <img :src="item.promotion_DT" class="img-fluid  " alt="" />
                 </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.credit_DT"
-                >
+                <div class="col-12  size-col mt-2" v-if="item.credit_DT">
                   Credit
                   <img :src="item.credit_DT" class="img-fluid  " alt="" />
                 </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.contact_DT"
-                >
+                <div class="col-12 size-col mt-2" v-if="item.contact_DT">
                   Contract
                   <img :src="item.contact_DT" class="img-fluid  " alt="" />
                 </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.question_DT"
-                >
+                <div class="col-12 size-col mt-2" v-if="item.question_DT">
                   คำถามที่พบบ่อย
                   <img :src="item.question_DT" class="img-fluid  " alt="" />
                 </div>
@@ -197,13 +188,13 @@
         <!-- desktop -->
       </div>
     </div>
-    <template>
+    <!-- <template>
       <div class="set-position" v-if="dataselect.description">
-        <div class="card-expanding" >
+        <div class="card-expanding">
           <div class="font-bold" v-html="dataselect.description"></div>
         </div>
       </div>
-    </template>
+    </template> -->
   </div>
 </template>
 

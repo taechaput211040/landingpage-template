@@ -17,8 +17,15 @@ span {
 }
 .bg-main-page {
   background-image: url("https://image.smart-ai-api.com/public/image-storage/demo-template-sale/BG.jpg");
+  background-size: cover;
+  min-height: 100vh;
 }
-
+.img_backbtn {
+  cursor: pointer;
+}
+.img_backbtn:hover {
+  opacity: 0.8;
+}
 .menu_header {
   box-shadow: 0px 4px 16px 0px #0000001a;
   z-index: 10;
@@ -35,16 +42,13 @@ span {
   }
 }
 
-.bg-none {
-  background: var(--bg_color_header);
-  height: 126px;
-}
 .show-mock {
   text-align: center;
 }
 .img-feature {
   width: 110px;
 }
+
 @include media-breakpoint-down(md) {
   .red_chip_two {
     display: none;
@@ -56,12 +60,12 @@ span {
     display: none;
   }
   .img-showmock {
-    margin-top: 70px;
+    margin-top: 100px;
     width: 100%;
   }
   .btn-back {
     position: absolute;
-    left: 6px;
+    left: 15px;
     top: -10px;
     .img_backbtn {
       height: 34px;
@@ -158,7 +162,7 @@ span {
     right: 0;
   }
   .img-showmock {
-    margin-top: 100px;
+    margin-top: 150px;
     width: 80%;
   }
   .menu_right_mobile {
@@ -170,42 +174,27 @@ span {
   .btn-back {
     position: absolute;
     left: 40px;
-    top: -5px;
+    top: -10px;
     .img_backbtn {
       height: 44px;
     }
   }
   .menu {
     .btn-landing {
-      background: linear-gradient(
-        256.46deg,
-        #572978 -24.55%,
-        #7f3baf 37.91%,
-        #500873 95.86%
-      );
+      background: linear-gradient(256.46deg, #572978 -24.55%, #7f3baf 37.91%, #500873 95.86%);
 
       color: white;
       font-weight: bold;
       border-radius: 50px !important;
     }
     .btn-landing-seo {
-      background: linear-gradient(
-        256.46deg,
-        #572978 -24.55%,
-        #7f3baf 37.91%,
-        #500873 95.86%
-      );
+      background: linear-gradient(256.46deg, #572978 -24.55%, #7f3baf 37.91%, #500873 95.86%);
       color: white;
       font-weight: bold;
       border-radius: 50px !important;
     }
     .btn-member {
-      background: linear-gradient(
-        259.13deg,
-        #fff500 -9.97%,
-        #ffc701 43.31%,
-        #f7980b 92.75%
-      );
+      background: linear-gradient(259.13deg, #fff500 -9.97%, #ffc701 43.31%, #f7980b 92.75%);
       color: rgb(255, 255, 255);
       font-weight: bold;
       border-radius: 50px !important;
@@ -238,8 +227,23 @@ span {
     }
   }
 }
-
+@include media-breakpoint-down(lg) {
+  .colorpalace {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 @include media-breakpoint-up(lg) {
+  .colorpalace {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .red_chip_two {
     position: absolute;
     z-index: 5;
@@ -331,6 +335,7 @@ span {
 .card-to-show {
   background-color: #eeeeee;
   margin-top: 40px;
+  border-radius: 45px 45px 0 0;
 }
 .card-style {
   justify-content: center;
@@ -373,6 +378,7 @@ span {
   cursor: pointer;
   max-height: 180px;
   width: auto;
+  transition: 0.3s;
 }
 .responsive {
   cursor: pointer;
@@ -464,14 +470,6 @@ span {
   border: none !important;
 }
 
-.colorpalace {
-  color: white;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .showpalace {
   overflow-x: hidden;
   width: 0px;
@@ -491,11 +489,10 @@ span {
 .colorpalace:hover + .showpalace,
 .showpalace:hover {
   width: 70px;
-  transition: 0.4s;
 }
 .nav-link {
   display: block;
-  padding: 6px 6px !important;
+  padding: 6px 3px !important;
 }
 
 .active_menu_palate {
@@ -509,4 +506,39 @@ span {
 .nav-tabs .nav-link {
   border: none !important;
   background: none !important;
+}
+.headertext {
+  margin-top: 80px;
+}
+.footer {
+  padding: 5px;
+  font-weight: bold;
+  background: linear-gradient(180deg, #680a94 0%, #510078 100%);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.card-showtheme {
+  position: relative;
+}
+.btn-showpalace {
+  display: none;
+  background-color: red;
+  border-radius: 10px;
+}
+.img-showtheme:hover + .btn-showpalace,
+.btn-showpalace:hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+.img-showtheme:hover {
+  opacity: 0.3;
+  transition: 0.3s;
+}
+.btn-showpalace:hover + .card-showtheme {
+  opacity: 0.3;
+  transition: 0.3s;
 }

@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <div class="text-center pt-5 "><h1>Member Page</h1></div>
-
-    <div class="text-center py-5 font-weight-bold">
+    <div class="text-center py-5 font-weight-bold headertext">
       <h1>เลือกหน้า Member</h1>
       รับทำเว็บไซต์พนันออนไลน์ มีทุกค่าย ครบทุกเกมส์
     </div>
@@ -12,7 +10,7 @@
         :key="index"
         class="col-md-4 col-12 py-4"
       >
-        <div class=" p-md-3 p2">
+        <div class="p2">
           <b-tabs
             align="center"
             end
@@ -29,7 +27,7 @@
                     <img :src="landing.color" class="img-fluid" />
                   </div>
                   <div
-                    class="showpalace"
+                    class="showpalace text-uppercase"
                     :class="{ active_menu_palate: landing.title == palaceshow }"
                   >
                     {{ landing.name }}
@@ -40,7 +38,7 @@
               <div class="text-center">
                 <img
                   :src="landing.mock_image"
-                  class="img-fluid img-showtheme"
+                  class="img-fluid "
                   @click="showlanding(index, landing)"
                 />
                 <div class="text-center my-3">
@@ -59,6 +57,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      palaceshow: null
+    };
+  },
   props: {
     renderdata: {}
   },
