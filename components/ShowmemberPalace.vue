@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-    <h3 v-if="dataselect" class="header-text text-center container">
+    <h3 v-if="dataselect" class="header-text text-center container text-uppercase">
       {{ dataselect.title }}
 
       <div @click="$router.push('/memberpage')" class="btn-back my-2">
@@ -303,7 +303,7 @@ export default {
         let response = await this.$axios.get("./get.json");
         if (response.status == 200) {
           this.renderdata = response.data.Member;
-          console.log(this.renderdata);
+       
         }
       } catch (err) {
         console.log(err);
@@ -318,11 +318,11 @@ export default {
             return x.name == this.toPalace;
           });
           this.dataselect = data;
-          console.log(this.toTheme, this.toPalace);
+        
         }
       } catch (error) {
         console.log(error);
-        console.log(this.dataselect);
+    
       }
     }
   }

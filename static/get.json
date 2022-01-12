@@ -232,6 +232,205 @@
       }
     ]
   },
+  "landing_page_seo": {
+    "theme1": [
+      {
+        "name": "palate1",
+        "title": "Theme1 > Palate1",
+        "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044028cc843605ec28448d9b5b11f4624c67e0.png",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t1p1.png",
+        "image": [
+          {
+            "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044022ec6a06e70b2645248590cfb50343b6a7.jpg",
+            "sport_DT": "",
+            "casino_DT": "",
+            "slot_DT": "",
+            "horse_DT": "",
+            "esport_DT": "",
+            "promotion_DT": "",
+            "credit_DT": "",
+            "contact_DT": "",
+            "question_DT": ""
+          },
+          {
+            "main_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081304410553531e51be5d4c458ffee9169b338a33.png",
+            "sport_MB": "",
+            "casino_MB": "",
+            "slot_MB": "",
+            "horse_MB": "",
+            "esport_MB": "",
+            "promotion_MB": "",
+            "credit_MB": "",
+            "contact_MB": "",
+            "question_MB": ""
+          }
+        ]
+      },
+      {
+        "name": "palate2",
+        "title": "Theme1 > Palate2",
+        "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044154734770ebda0842ee98a0dc3b10b67544.png",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t1p2.png",
+        "image": [
+          {
+            "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044434ae797fd7f0f14730a5abd537c087bb04.png",
+            "sport_DT": "",
+            "casino_DT": "",
+            "slot_DT": "",
+            "horse_DT": "",
+            "esport_DT": "",
+            "promotion_DT": "",
+            "credit_DT": "",
+            "contact_DT": "",
+            "question_DT": ""
+          },
+          {
+            "main_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081304451638eaa3c3e675402fb99e51ac4c4c6729.png",
+            "sport_MB": "",
+            "casino_MB": "",
+            "slot_MB": "",
+            "horse_MB": "",
+            "esport_MB": "",
+            "promotion_MB": "",
+            "credit_MB": "",
+            "contact_MB": "",
+            "question_MB": ""
+          }
+        ]
+      },
+      {
+        "name": "palate3",
+        "title": "Theme1 > Palate3",
+        "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044259908c25a13a584146977e511361a05c99.png",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t1p3.png",
+        "image": [
+          {
+            "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130442550d9bd2fda71b42f9807895085bc1bfe7.png",
+            "sport_DT": "",
+            "casino_DT": "",
+            "slot_DT": "",
+            "horse_DT": "",
+            "esport_DT": "",
+            "promotion_DT": "",
+            "credit_DT": "",
+            "contact_DT": "",
+            "question_DT": ""
+          },
+          {
+            "main_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081304431589a8e71e554d44f29d2d2d537d6e7352.png",
+            "sport_MB": "",
+            "casino_MB": "",
+            "slot_MB": "",
+            "horse_MB": "",
+            "esport_MB": "",
+            "promotion_MB": "",
+            "credit_MB": "",
+            "contact_MB": "",
+            "question_MB": ""
+          }
+        ]
+      }
+    ],
+    "theme4": [
+      {
+        "name": "palate1",
+        "title": "Theme4 > Palate1",
+        "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130444233c80fc0c68e445c39f4ed1d62e0bc270.png",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t4p1.png",
+        "image": [
+          {
+            "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044556aab2a6bfd9b44ce2a0cd4aa79ee2b4bb.png",
+            "sport_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/202108310726353446080730a7418e9ea668ea6255a6b1.png",
+            "casino_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072647f878d995ea6f4b81a87fecc85a505bc8.png",
+            "slot_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/202108310726585a65f393fe9840e9b851f56c65e65dad.png",
+            "horse_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072710b053643e757340cca11309a2e06a659d.png",
+            "esport_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072727f484478ea28b42a482d5c13cd1705227.png",
+            "promotion_DT": "",
+            "credit_DT": "",
+            "contact_DT": "",
+            "question_DT": ""
+          },
+          {
+            "main_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130446171ec202e39a894186bd1888201224ee99.png",
+            "sport_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/2021083107251299acf804cff649df8c06c121fd395e3d.png",
+            "casino_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/202108310725302e2e424f04df43949057e763bf74ebc2.png",
+            "slot_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072545fdc307830e884e61bf2e634b92eb28f0.png",
+            "horse_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072601c955a798264c422abfad70c2c4ef0783.png",
+            "esport_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072612fede1c81d4894c05ad9169d1829f256e.png",
+            "promotion_MB": "",
+            "credit_MB": "",
+            "contact_MB": "",
+            "question_MB": ""
+          }
+        ]
+      },
+      {
+        "name": "palate2",
+        "title": "Theme4 > Palate2",
+        "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130445386a249f364831483283fe61cc8796fc4c.png",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t4p2.png",
+        "image": [
+          {
+            "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081304464570744e437fc24fa1b17431d6ca8e3aa4.png",
+            "sport_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/202108310723379159d100d8e34b2692b04293c3ddc583.png",
+            "casino_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/2021083107235563a9bb8a606148ac8e963aa8cd7419a5.png",
+            "slot_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072405014f438a5d63412e8e463a8ee3e3beb0.png",
+            "horse_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072416f01867bf991642c68d3c5a019d9ce7d2.png",
+            "esport_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072430e944167c28334560a55cb4424567f7d2.png",
+            "promotion_DT": "",
+            "credit_DT": "",
+            "contact_DT": "",
+            "question_DT": ""
+          },
+          {
+            "main_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081304470871221de663d04611a46e218f282f4176.png",
+            "sport_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072023175ec48b92854f48a8ce5ee70eadc233.png",
+            "casino_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/202108310722033c445877bea540309902ef2f8bb4dc81.png",
+            "slot_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/202108310722175a175971ed9e477cb2c2eed452a9823a.png",
+            "horse_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072232b2f2d75ebefc43fb8fd7c0dded7dc5a1.png",
+            "esport_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/2021083107224554c01cba3dc34c81a179f6ad4d101190.png",
+            "promotion_MB": "",
+            "credit_MB": "",
+            "contact_MB": "",
+            "question_MB": ""
+          }
+        ]
+      },
+      {
+        "name": "palate3",
+        "title": "Theme4 > Palate3",
+        "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044607fe20cedc179a4ec0afe73e9066b6bfed.png",
+        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t4p3.png",
+        "image": [
+          {
+            "main_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130447285f4b760a8f424dc09b1f03fcf7ec6384.png",
+            "sport_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/202108310730481379b8aa798643b0887d5742a2afb3d3.png",
+            "casino_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831073102d1b364baabdd4ea39596bfb015588837.png",
+            "slot_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831073127e802f97e993b456bbf7432cf52347bd4.png",
+            "horse_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831073127e802f97e993b456bbf7432cf52347bd4.png",
+            "esport_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/template/202108310731404b4e2381e2ce4c56b39131f3a62e2756.png",
+            "promotion_DT": "",
+            "credit_DT": "",
+            "contact_DT": "",
+            "question_DT": ""
+          },
+          {
+            "main_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130447443897bcba5d7d4bac9fea817ec68aac9a.png",
+            "sport_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072844481b735d57fe413999df9875a161228c.png",
+            "casino_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210901053018915efb30b2a247859a6d1d387ccd2efd.png",
+            "slot_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072858b3f84017e20e4354a9b40243e526f116.png",
+            "horse_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/20210831072923ced281d72a6c4bf190cde0252d3027f2.png",
+            "esport_MB": "https://image.smart-ai-api.com/public/image-storage-betkub/template/2021083107224554c01cba3dc34c81a179f6ad4d101190.png",
+            "promotion_MB": "",
+            "credit_MB": "",
+            "contact_MB": "",
+            "question_MB": ""
+          }
+        ]
+      }
+    ]
+  },
+
   "Member": {
     "theme1": [
       {

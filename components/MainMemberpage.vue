@@ -35,10 +35,15 @@
                 </div>
               </template>
 
-              <div class="text-center">
+              <div class="text-center card-showtheme">
                 <img
                   :src="landing.mock_image"
-                  class="img-fluid "
+                  class="img-fluid img-showtheme"
+                  @click="showlanding(index, landing)"
+                />
+                <img
+                  src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/showmorebtn.png"
+                  class="btn-showpalace img fluid"
                   @click="showlanding(index, landing)"
                 />
                 <div class="text-center my-3">

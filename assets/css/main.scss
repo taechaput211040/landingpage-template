@@ -121,11 +121,16 @@ span {
     }
     .list_menu {
       cursor: pointer;
-      background: linear-gradient(45deg, #7122ab, #572978);
+      background: linear-gradient(
+        256.46deg,
+        #572978 -24.55%,
+        #7f3baf 37.91%,
+        #500873 95.86%
+      );
       color: #fff;
-      padding: 10px;
+      padding-block: 5px;
       width: 73px;
-      height: 80px;
+      height: auto;
       text-align: center;
       a {
         text-decoration: none;
@@ -136,7 +141,12 @@ span {
       justify-content: center;
     }
     .active_menu_right {
-      background: linear-gradient(45deg, #b98017, #f8ac22);
+      background: linear-gradient(
+        259.13deg,
+        #fff500 -9.97%,
+        #ffc701 43.31%,
+        #f7980b 92.75%
+      );
     }
     .list_menu:hover {
       background-color: #4e0a0a;
@@ -145,6 +155,11 @@ span {
 }
 .show-tocard {
   position: relative;
+}
+@include media-breakpoint-up(lg) {
+  .img-showmock {
+    width: 70%;
+  }
 }
 @include media-breakpoint-up(md) {
   .red_chip_two {
@@ -163,7 +178,7 @@ span {
   }
   .img-showmock {
     margin-top: 150px;
-    width: 80%;
+    width: 75%;
   }
   .menu_right_mobile {
     display: none;
@@ -181,20 +196,35 @@ span {
   }
   .menu {
     .btn-landing {
-      background: linear-gradient(256.46deg, #572978 -24.55%, #7f3baf 37.91%, #500873 95.86%);
+      background: linear-gradient(
+        256.46deg,
+        #572978 -24.55%,
+        #7f3baf 37.91%,
+        #500873 95.86%
+      );
 
       color: white;
       font-weight: bold;
       border-radius: 50px !important;
     }
     .btn-landing-seo {
-      background: linear-gradient(256.46deg, #572978 -24.55%, #7f3baf 37.91%, #500873 95.86%);
+      background: linear-gradient(
+        256.46deg,
+        #572978 -24.55%,
+        #7f3baf 37.91%,
+        #500873 95.86%
+      );
       color: white;
       font-weight: bold;
       border-radius: 50px !important;
     }
     .btn-member {
-      background: linear-gradient(259.13deg, #fff500 -9.97%, #ffc701 43.31%, #f7980b 92.75%);
+      background: linear-gradient(
+        259.13deg,
+        #fff500 -9.97%,
+        #ffc701 43.31%,
+        #f7980b 92.75%
+      );
       color: rgb(255, 255, 255);
       font-weight: bold;
       border-radius: 50px !important;
@@ -294,6 +324,12 @@ span {
   position: absolute;
   top: 1px;
   height: 35px;
+  animation: blinker 2.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
 }
 .show-feature {
   .card-feature {
@@ -376,7 +412,6 @@ span {
 }
 .img-showtheme {
   cursor: pointer;
-  max-height: 180px;
   width: auto;
   transition: 0.3s;
 }
@@ -429,6 +464,7 @@ span {
     width: 85px;
   }
   .show-feature .card-feature .commingsoon {
+    animation: blinker 2.5s linear infinite;
     position: absolute;
     height: 33px;
   }
@@ -519,26 +555,51 @@ span {
 }
 
 .card-showtheme {
+  padding: 23px 23px 0 23px;
   position: relative;
+  .img-showtheme,
+  .btn-showpalace {
+    transition: 0.3s all;
+  }
+  .btn-showpalace {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    opacity: 0;
+    height: 50px;
+    cursor: pointer;
+  }
+  &:hover {
+    .btn-showpalace {
+      opacity: 1;
+      border-radius: 15px;
+    }
+    .img-showtheme {
+      opacity: 0.7;
+      -webkit-filter: blur(2px);
+      filter: blur(3px);
+    }
+  }
 }
-.btn-showpalace {
-  display: none;
-  background-color: red;
-  border-radius: 10px;
-}
-.img-showtheme:hover + .btn-showpalace,
-.btn-showpalace:hover {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-}
-.img-showtheme:hover {
-  opacity: 0.3;
-  transition: 0.3s;
-}
-.btn-showpalace:hover + .card-showtheme {
-  opacity: 0.3;
-  transition: 0.3s;
-}
+// .btn-showpalace {
+//   display: none;
+//   background-color: red;
+//   border-radius: 10px;
+// }
+// .img-showtheme:hover + .btn-showpalace,
+// .btn-showpalace:hover {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   display: block;
+// }
+// .img-showtheme:hover {
+//   opacity: 0.3;
+//   transition: 0.3s;
+// }
+// .btn-showpalace:hover + .card-showtheme {
+//   opacity: 0.3;
+//   transition: 0.3s;
+// }

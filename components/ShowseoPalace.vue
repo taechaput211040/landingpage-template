@@ -13,13 +13,13 @@
     <h3 v-if="dataselect" class="header-text text-center container text-uppercase">
       {{ dataselect.title }}
 
-      <div @click="$router.push('/landingpage')" class="btn-back my-2">
+      <div @click="$router.push('/seopage')" class="btn-back my-2">
         <img
           src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/LDP_Button.png"
           class="img-fluid img_backbtn desktopshow"
         />
       </div>
-      <div @click="$router.push('/landingpage')" class="btn-back my-2">
+      <div @click="$router.push('/seopage')" class="btn-back my-2">
         <img
           src=" https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/btnback.png"
           class="img-fluid img_backbtn mobiletopshow"
@@ -230,7 +230,7 @@ export default {
       try {
         let response = await this.$axios.get("./get.json");
         if (response.status == 200) {
-          this.renderdata = response.data.landing_page;
+          this.renderdata = response.data.landing_page_seo;
         }
       } catch (err) {
         console.log(err);

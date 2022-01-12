@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <div class="text-center py-5 font-weight-bold headertext">
-      <h1>เลือกหน้า Landing Page</h1>
+      <h1>เลือกหน้า Landing Page (SEO)</h1>
       รับทำเว็บไซต์พนันออนไลน์ มีทุกค่าย ครบทุกเกมส์
     </div>
     <div class="row">
       <div
-        v-for="(item, index) in renderdata.landing_page"
+        v-for="(item, index) in renderdata.landing_page_seo"
         :key="index"
         class="col-md-4 col-12 py-4"
       >
@@ -75,7 +75,7 @@ export default {
   created() {},
   methods: {
     showlanding(index, item) {
-      this.$router.push(`/landingpage?theme=${index}&palace=${item.name}`);
+      this.$router.push(`/seopage?theme=${index}&palace=${item.name}`);
     },
     setpalace(palace) {
       this.palaceshow = palace;

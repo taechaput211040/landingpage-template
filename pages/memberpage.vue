@@ -12,26 +12,22 @@
 import MainMemberpage from "~/components/MainMemberpage.vue";
 import ShowmemberPalace from "~/components/ShowmemberPalace.vue";
 export default {
+  async asyncData({ $axios }) {
+    try {
+      let renderdata = await $axios.get("./get.json");
+      if (renderdata.status == 200) {
+        renderdata = renderdata.data;
+        return { renderdata };
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  },
   components: { MainMemberpage, ShowmemberPalace },
   data() {
     return {
       renderdata: {}
     };
-  },
-  async beforeMount() {
-    this.getdata();
-  },
-  methods: {
-    async getdata() {
-      try {
-        let response = await this.$axios.get("./get.json");
-        if (response.status == 200) {
-          this.renderdata = response.data;
-        }
-      } catch (err) {
-        console.log(err);
-      }
-    }
   }
 };
 </script>
