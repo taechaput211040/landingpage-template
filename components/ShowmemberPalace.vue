@@ -11,7 +11,10 @@
         </div>
       </div>
     </div>
-    <h3 v-if="dataselect" class="header-text text-center container text-uppercase">
+    <h3
+      v-if="dataselect"
+      class="header-text text-center container text-uppercase"
+    >
       {{ dataselect.title }}
 
       <div @click="$router.push('/memberpage')" class="btn-back my-2">
@@ -75,21 +78,21 @@
                 v-if="showdesktop == true"
               >
                 <div class="col-12 col-md-6 size-col mt-2" v-if="item.login_DT">
-                  หน้าสมัครสมาชิก
+                  <div>หน้าสมัครสมาชิก</div>
                   <img :src="item.login_DT" class="img-fluid  " alt="" />
                 </div>
                 <div
                   class="col-12 col-md-6 size-col mt-2"
                   v-if="item.register1_DT"
                 >
-                  หน้ากรอกข้อมูลโทรศัพท์
+                  <div>หน้ากรอกข้อมูลโทรศัพท์</div>
                   <img :src="item.register1_DT" class="img-fluid  " alt="" />
                 </div>
                 <div
                   class="col-12 col-md-6 size-col mt-2"
                   v-if="item.register2_DT"
                 >
-                  หน้ากรอกข้อมูล
+                  <div>หน้ากรอกข้อมูล</div>
                   <img :src="item.register2_DT" class="img-fluid  " alt="" />
                 </div>
 
@@ -97,15 +100,15 @@
                   class="col-12 col-md-6 size-col mt-2"
                   v-if="item.main_image_DT"
                 >
-                  หน้าหลัก
+                  <div>หน้าหลัก</div>
                   <img :src="item.main_image_DT" class="img-fluid  " alt="" />
                 </div>
                 <div class="col-12 col-md-6 size-col mt-2" v-if="item.game1_DT">
-                  หน้าเข้าเล่น
+                  <div>หน้าเข้าเล่น</div>
                   <img :src="item.game1_DT" class="img-fluid  " alt="" />
                 </div>
                 <div class="col-12 col-md-6 size-col mt-2" v-if="item.game2_DT">
-                  หน้ากิจกรรม
+                  <div>หน้ากิจกรรม</div>
                   <img :src="item.game2_DT" class="img-fluid  " alt="" />
                 </div>
 
@@ -113,28 +116,28 @@
                   class="col-12 col-md-6 size-col mt-2"
                   v-if="item.deposit_DT"
                 >
-                  หน้าฝากเงิน
+                  <div>หน้าฝากเงิน</div>
                   <img :src="item.deposit_DT" class="img-fluid  " alt="" />
                 </div>
                 <div
                   class="col-12 col-md-6 size-col mt-2"
                   v-if="item.withdraw_DT"
                 >
-                  หน้าถอนเงิน
+                  <div>หน้าถอนเงิน</div>
                   <img :src="item.withdraw_DT" class="img-fluid  " alt="" />
                 </div>
                 <div
                   class="col-12 col-md-6 size-col mt-2"
                   v-if="item.history_DT"
                 >
-                  หน้าประวัติ
+                  <div>หน้าประวัติ</div>
                   <img :src="item.history_DT" class="img-fluid  " alt="" />
                 </div>
                 <div
                   class="col-12 col-md-6 size-col mt-2"
                   v-if="item.change_password_DT"
                 >
-                  หน้าเปลี่ยนรหัส
+                  <div>หน้าเปลี่ยนรหัส</div>
                   <img
                     :src="item.change_password_DT"
                     class="img-fluid  "
@@ -145,7 +148,7 @@
                   class="col-12 col-md-6 size-col mt-2"
                   v-if="item.register_promotion_DT"
                 >
-                  หน้าโปรโมชั่น
+                  <div>หน้าโปรโมชั่น</div>
                   <img
                     :src="item.register_promotion_DT"
                     class="img-fluid  "
@@ -156,7 +159,7 @@
                   class="col-12 col-md-6 size-col mt-2"
                   v-if="item.promotion_DT"
                 >
-                  หน้าโปรโมชั่น
+                  <div>หน้าโปรโมชั่น</div>
                   <img :src="item.promotion_DT" class="img-fluid  " alt="" />
                 </div>
               </div>
@@ -165,67 +168,73 @@
                 class="mobile row pt-4 font-weight-bold align"
                 v-if="showmobile == true"
               >
-                <div class="col-12 col-md-4 size-col mt-2" v-if="item.login_MB">
-                  หน้าสมัครสมาชิก
+                <div class="col-12 col-md-4 style-mb mt-2 " v-if="item.login_MB">
+                  <div>หน้าสมัครสมาชิก</div>
                   <img :src="item.login_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-4 size-col mt-2"
+                  class="col-12 col-md-4 style-mb mt-2"
                   v-if="item.register1_MB"
                 >
-                  หน้ากรอกข้อมูลโทรศัพท์
+                  <div>หน้ากรอกข้อมูลโทรศัพท์</div>
+
                   <img :src="item.register1_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-4 size-col mt-2"
+                  class="col-12 col-md-4 style-mb mt-2"
                   v-if="item.register2_MB"
                 >
-                  หน้ากรอกข้อมูล
+                  <div>หน้ากรอกข้อมูล</div>
+
                   <img :src="item.register2_MB" class="img-fluid  " alt="" />
                 </div>
 
                 <div
-                  class="col-12 col-md-4 size-col mt-2"
+                  class="col-12 col-md-4 style-mb mt-2"
                   v-if="item.main_image_MB"
                 >
-                  หน้าหลัก
+                  <div>หน้าหลัก</div>
                   <img :src="item.main_image_MB" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 col-md-4 size-col mt-2" v-if="item.game1_MB">
-                  หน้าเข้าเล่น
+                <div class="col-12 col-md-4 style-mb mt-2" v-if="item.game1_MB">
+                  <div>หน้าเข้าเล่น</div>
                   <img :src="item.game1_MB" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 col-md-4 size-col mt-2" v-if="item.game2_MB">
-                  หน้ากิจกรรม
+                <div class="col-12 col-md-4 style-mb mt-2" v-if="item.game2_MB">
+                  <div>หน้ากิจกรรม</div>
                   <img :src="item.game2_MB" class="img-fluid  " alt="" />
                 </div>
 
                 <div
-                  class="col-12 col-md-4 size-col mt-2"
+                  class="col-12 col-md-4 style-mb mt-2"
                   v-if="item.deposit_MB"
                 >
-                  หน้าฝากเงิน
+                  <div>หน้าฝากเงิน</div>
+
                   <img :src="item.deposit_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-4 size-col mt-2"
+                  class="col-12 col-md-4 style-mb mt-2"
                   v-if="item.withdraw_MB"
                 >
-                  หน้าถอนเงิน
+                  <div>หน้าถอนเงิน</div>
+
                   <img :src="item.withdraw_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-4 size-col mt-2"
+                  class="col-12 col-md-4 style-mb mt-2"
                   v-if="item.history_MB"
                 >
-                  หน้าประวัติ
+                  <div>หน้าประวัติ</div>
+
                   <img :src="item.history_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-4 size-col mt-2"
+                  class="col-12 col-md-4 style-mb mt-2"
                   v-if="item.change_password_MB"
                 >
-                  หน้าเปลี่ยนรหัส
+                  <div>หน้าเปลี่ยนรหัส</div>
+
                   <img
                     :src="item.change_password_MB"
                     class="img-fluid  "
@@ -233,10 +242,10 @@
                   />
                 </div>
                 <div
-                  class="col-12 col-md-4 size-col mt-2"
+                  class="col-12 col-md-4 style-mb mt-2"
                   v-if="item.register_promotion_MB"
                 >
-                  หน้าโปรโมชั่น
+                  <div>หน้าโปรโมชั่น</div>
                   <img
                     :src="item.register_promotion_MB"
                     class="img-fluid  "
@@ -244,10 +253,10 @@
                   />
                 </div>
                 <div
-                  class="col-12 col-md-4 size-col mt-2"
+                  class="col-12 col-md-4 style-mb mt-2"
                   v-if="item.promotion_MB"
                 >
-                  หน้าโปรโมชั่น
+                  <div>หน้าโปรโมชั่น</div>
                   <img :src="item.promotion_MB" class="img-fluid  " alt="" />
                 </div>
               </div>
@@ -303,7 +312,6 @@ export default {
         let response = await this.$axios.get("./get.json");
         if (response.status == 200) {
           this.renderdata = response.data.Member;
-       
         }
       } catch (err) {
         console.log(err);
@@ -318,11 +326,9 @@ export default {
             return x.name == this.toPalace;
           });
           this.dataselect = data;
-        
         }
       } catch (error) {
         console.log(error);
-    
       }
     }
   }

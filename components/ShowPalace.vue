@@ -10,7 +10,10 @@
         />
       </div>
     </div>
-    <h3 v-if="dataselect" class="header-text text-center container text-uppercase">
+    <h3
+      v-if="dataselect"
+      class="header-text text-center container text-uppercase"
+    >
       {{ dataselect.title }}
 
       <div @click="$router.push('/landingpage')" class="btn-back my-2">
@@ -73,44 +76,82 @@
                 class="desktop row pt-4 font-weight-bold align"
                 v-if="showdesktop == true"
               >
-                <div class="col-12 size-col mt-2" v-if="item.main_DT">
-                  หน้าหลัก
+                <div class="col-md-10 col-12 size-col mt-2" v-if="item.main_DT">
+                  <div>หน้าหลัก</div>
                   <img :src="item.main_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12  size-col mt-2" v-if="item.sport_DT">
-                  Sport
+                <div
+                  class="col-md-10 col-12  size-col mt-2"
+                  v-if="item.sport_DT"
+                >
+                  <div>Sport</div>
                   <img :src="item.sport_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 size-col mt-2" v-if="item.casino_DT">
-                  Casino
+                <div
+                  class="col-md-10 col-12 size-col mt-2"
+                  v-if="item.casino_DT"
+                >
+                  <div>Casino</div>
                   <img :src="item.casino_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 size-col mt-2" v-if="item.slot_DT">
-                  Slot
+                <div class="col-md-10 col-12 size-col mt-2" v-if="item.slot_DT">
+                  <div>Slot</div>
                   <img :src="item.slot_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 size-col mt-2" v-if="item.horse_DT">
-                  Horse
+                <div
+                  class="col-md-10 col-12 size-col mt-2"
+                  v-if="item.horse_DT"
+                >
+                  <div>Horse</div>
                   <img :src="item.horse_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 size-col mt-2" v-if="item.esport_DT">
-                  E-sport
+                <div
+                  class="col-md-10 col-12 size-col mt-2"
+                  v-if="item.esport_DT"
+                >
+                  <div>E-sport</div>
                   <img :src="item.esport_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12  size-col mt-2" v-if="item.promotion_DT">
-                  Promotion
+                <div
+                  class="col-md-10 col-12 size-col mt-2"
+                  v-if="item.fishing_DT"
+                >
+                  <div>ยิงปลา</div>
+                  <img :src="item.fishing_DT" class="img-fluid  " alt="" />
+                </div>
+                <div
+                  class="col-md-10 col-12 size-col mt-2"
+                  v-if="item.lotto_DT"
+                >
+                  <div>หวย</div>
+                  <img :src="item.lotto_DT" class="img-fluid  " alt="" />
+                </div>
+                <div
+                  class="col-md-10 col-12  size-col mt-2"
+                  v-if="item.promotion_DT"
+                >
+                  <div>Promotion</div>
                   <img :src="item.promotion_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12  size-col mt-2" v-if="item.credit_DT">
-                  Credit
+                <div
+                  class="col-md-10 col-12  size-col mt-2"
+                  v-if="item.credit_DT"
+                >
+                  <div>Credit</div>
                   <img :src="item.credit_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 size-col mt-2" v-if="item.contact_DT">
-                  Contract
+                <div
+                  class="col-md-10 col-12 size-col mt-2"
+                  v-if="item.contact_DT"
+                >
+                  <div>Contract</div>
                   <img :src="item.contact_DT" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 size-col mt-2" v-if="item.question_DT">
-                  คำถามที่พบบ่อย
+                <div
+                  class="col-md-10 col-12 size-col mt-2"
+                  v-if="item.question_DT"
+                >
+                  <div>คำถามที่พบบ่อย</div>
                   <img :src="item.question_DT" class="img-fluid  " alt="" />
                 </div>
               </div>
@@ -119,62 +160,88 @@
                 class="mobile row pt-4 font-weight-bold align"
                 v-if="showmobile == true"
               >
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.main_MB">
-                  หน้าหลัก
+                <div
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
+                  v-if="item.main_MB"
+                >
+                  <div>หน้าหลัก</div>
                   <img :src="item.main_MB" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.sport_MB">
-                  Sport
+                <div
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
+                  v-if="item.sport_MB"
+                >
+                  <div>Sport</div>
                   <img :src="item.sport_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-6 size-col mt-2"
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
                   v-if="item.casino_MB"
                 >
-                  Casino
+                  <div>Casino</div>
                   <img :src="item.casino_MB" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.slot_MB">
-                  Slot
+                <div
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
+                  v-if="item.slot_MB"
+                >
+                  <div>Slot</div>
                   <img :src="item.slot_MB" class="img-fluid  " alt="" />
                 </div>
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.horse_MB">
-                  แข่งม้า
+                <div
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
+                  v-if="item.horse_MB"
+                >
+                  <div>แข่งม้า</div>
                   <img :src="item.horse_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-6 size-col mt-2"
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
                   v-if="item.esport_MB"
                 >
-                  E-Sport
+                  <div>E-Sport</div>
                   <img :src="item.esport_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-6 size-col mt-2"
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
+                  v-if="item.fishing_MB"
+                >
+                  <div>E-ยิงปลา</div>
+                  <img :src="item.fishing_MB" class="img-fluid  " alt="" />
+                </div>
+                <div
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
+                  v-if="item.lotto_MB"
+                >
+                  <div>หวย</div>
+                  <img :src="item.lotto_MB" class="img-fluid  " alt="" />
+                </div>
+                <div
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
                   v-if="item.promotion_MB"
                 >
-                  Promotion
+                  <div>Promotion</div>
                   <img :src="item.promotion_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-6 size-col mt-2"
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
                   v-if="item.credit_MB"
                 >
-                  Credit
+                  <div>Credit</div>
                   <img :src="item.credit_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-6 size-col mt-2"
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
                   v-if="item.contact_MB"
                 >
-                  Contract
+                  <div>Contract</div>
                   <img :src="item.contact_MB" class="img-fluid  " alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-6 size-col mt-2"
+                  class="col-lg-6 col-12 col-md-12 style-mb mt-2"
                   v-if="item.question_MB"
                 >
-                  คำถามที่พบบ่อย
+                  <div>คำถามที่พบบ่อย</div>
                   <img :src="item.question_MB" class="img-fluid  " alt="" />
                 </div>
               </div>
@@ -245,7 +312,6 @@ export default {
             return x.name == this.toPalace;
           });
           this.dataselect = data;
-      
         }
       } catch (error) {
         console.log(error);

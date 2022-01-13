@@ -10,7 +10,10 @@
         />
       </div>
     </div>
-    <h3 v-if="dataselect" class="header-text text-center container text-uppercase">
+    <h3
+      v-if="dataselect"
+      class="header-text text-center container text-uppercase"
+    >
       {{ dataselect.title }}
 
       <div @click="$router.push('/seopage')" class="btn-back my-2">
@@ -184,7 +187,7 @@
           </div>
         </div>
         <!-- desktop -->
-
+       
         <!-- desktop -->
       </div>
     </div>
@@ -245,7 +248,6 @@ export default {
             return x.name == this.toPalace;
           });
           this.dataselect = data;
-      
         }
       } catch (error) {
         console.log(error);

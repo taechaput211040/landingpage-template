@@ -397,15 +397,34 @@ span {
 }
 .desktop,
 .mobile {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
   justify-content: center;
 }
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .size-col {
+  width: 100%;
   padding: 18px;
   margin-bottom: 20px;
   font-size: 1.75rem;
   font-weight: bold;
 }
-
+.style-mb {
+  padding: 18px;
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
 .icon-size {
   width: 75px;
   height: auto;
@@ -582,24 +601,22 @@ span {
     }
   }
 }
-// .btn-showpalace {
-//   display: none;
-//   background-color: red;
-//   border-radius: 10px;
-// }
-// .img-showtheme:hover + .btn-showpalace,
-// .btn-showpalace:hover {
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-//   display: block;
-// }
-// .img-showtheme:hover {
-//   opacity: 0.3;
-//   transition: 0.3s;
-// }
-// .btn-showpalace:hover + .card-showtheme {
-//   opacity: 0.3;
-//   transition: 0.3s;
-// }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
