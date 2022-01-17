@@ -121,12 +121,7 @@ span {
     }
     .list_menu {
       cursor: pointer;
-      background: linear-gradient(
-        256.46deg,
-        #572978 -24.55%,
-        #7f3baf 37.91%,
-        #500873 95.86%
-      );
+      background: linear-gradient(256.46deg, #572978 -24.55%, #7f3baf 37.91%, #500873 95.86%);
       color: #fff;
       padding-block: 5px;
       width: 73px;
@@ -141,12 +136,7 @@ span {
       justify-content: center;
     }
     .active_menu_right {
-      background: linear-gradient(
-        259.13deg,
-        #fff500 -9.97%,
-        #ffc701 43.31%,
-        #f7980b 92.75%
-      );
+      background: linear-gradient(259.13deg, #fff500 -9.97%, #ffc701 43.31%, #f7980b 92.75%);
     }
     .list_menu:hover {
       background-color: #4e0a0a;
@@ -196,35 +186,20 @@ span {
   }
   .menu {
     .btn-landing {
-      background: linear-gradient(
-        256.46deg,
-        #572978 -24.55%,
-        #7f3baf 37.91%,
-        #500873 95.86%
-      );
+      background: linear-gradient(256.46deg, #572978 -24.55%, #7f3baf 37.91%, #500873 95.86%);
 
       color: white;
       font-weight: bold;
       border-radius: 50px !important;
     }
     .btn-landing-seo {
-      background: linear-gradient(
-        256.46deg,
-        #572978 -24.55%,
-        #7f3baf 37.91%,
-        #500873 95.86%
-      );
+      background: linear-gradient(256.46deg, #572978 -24.55%, #7f3baf 37.91%, #500873 95.86%);
       color: white;
       font-weight: bold;
       border-radius: 50px !important;
     }
     .btn-member {
-      background: linear-gradient(
-        259.13deg,
-        #fff500 -9.97%,
-        #ffc701 43.31%,
-        #f7980b 92.75%
-      );
+      background: linear-gradient(259.13deg, #fff500 -9.97%, #ffc701 43.31%, #f7980b 92.75%);
       color: rgb(255, 255, 255);
       font-weight: bold;
       border-radius: 50px !important;
@@ -619,4 +594,15 @@ span {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+@include media-breakpoint-up(lg) {
+  .width-img {
+    width: 85%;
+  }
+}
+@include media-breakpoint-down(lg) {
+  .width-img {
+    width: 100%;
+  }
 }

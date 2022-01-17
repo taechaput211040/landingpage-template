@@ -77,13 +77,18 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
 export default {
   data() {
     return {
       showhamburger: true
     };
   },
+  async fetch() {
+    this.getData();
+  },
   methods: {
+    ...mapActions(["getData"]),
     openNav() {
       document.getElementById("menu-right").style.width = "70px";
       this.showhamburger = false;

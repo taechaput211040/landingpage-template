@@ -16,7 +16,6 @@
       class="header-text text-center container text-uppercase"
     >
       {{ dataselect.title }}
-
       <div @click="$router.push('/memberpage')" class="btn-back my-2">
         <img
           src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/LDP_Button.png"
@@ -168,7 +167,10 @@
                 class="mobile row pt-4 font-weight-bold align"
                 v-if="showmobile == true"
               >
-                <div class="col-12 col-md-4 style-mb mt-2 " v-if="item.login_MB">
+                <div
+                  class="col-12 col-md-4 style-mb mt-2 "
+                  v-if="item.login_MB"
+                >
                   <div>หน้าสมัครสมาชิก</div>
                   <img :src="item.login_MB" class="img-fluid  " alt="" />
                 </div>
@@ -281,7 +283,11 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
 export default {
+  props: {
+    renderdata: {}
+  },
   data() {
     return {
       showdesktop: true,
@@ -289,13 +295,15 @@ export default {
       nodesktop: false,
       toTheme: "",
       toPalace: "",
-      renderdata: {},
       dataselect: null
     };
   },
-  async mounted() {
-    await this.getdata();
-    this.selectedData();
+  async fetch() {
+    try {
+      this.selectedData();
+    } catch (err) {
+      console.log(err);
+    }
   },
   methods: {
     showMock(mock) {
@@ -307,22 +315,12 @@ export default {
         this.showdesktop = false;
       }
     },
-    async getdata() {
-      try {
-        let response = await this.$axios.get("./get.json");
-        if (response.status == 200) {
-          this.renderdata = response.data.Member;
-        }
-      } catch (err) {
-        console.log(err);
-      }
-    },
     async selectedData() {
       try {
         if (this.$route.query.theme && this.$route.query.palace) {
           this.toTheme = this.$route.query.theme;
           this.toPalace = this.$route.query.palace;
-          let data = this.renderdata[this.toTheme].find((x, key) => {
+          let data = this.renderdata.Member[this.toTheme].find((x, key) => {
             return x.name == this.toPalace;
           });
           this.dataselect = data;

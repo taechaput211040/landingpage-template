@@ -2,9 +2,12 @@
   <div class="bg-main-page">
     <main-memberpage
       v-if="!this.$route.query.theme"
-      :renderdata="renderdata"
+      :renderdata="$store.state.itemrender"
     ></main-memberpage>
-    <showmember-palace v-else></showmember-palace>
+    <showmember-palace
+      :renderdata="$store.state.itemrender"
+      v-else
+    ></showmember-palace>
   </div>
 </template>
 
@@ -12,22 +15,9 @@
 import MainMemberpage from "~/components/MainMemberpage.vue";
 import ShowmemberPalace from "~/components/ShowmemberPalace.vue";
 export default {
-  async asyncData({ $axios }) {
-    try {
-      let renderdata = await $axios.get("./get.json");
-      if (renderdata.status == 200) {
-        renderdata = renderdata.data;
-        return { renderdata };
-      }
-    } catch (err) {
-      console.log(err);
-    }
-  },
   components: { MainMemberpage, ShowmemberPalace },
   data() {
-    return {
-      renderdata: {}
-    };
+    return {};
   }
 };
 </script>

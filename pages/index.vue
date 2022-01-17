@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-main-page">
+  <div class="bg-main-page" v-if="$store.state.itemrender">
     <div class="bg-header">
       <div class="show-mock">
         <img
@@ -24,14 +24,12 @@
       </div>
     </div>
     <div class="show-feature container text-center py-md-2 py-2 my-5">
-      <VueSlickCarousel
-        v-bind="settings"
-        :arrows="true"
-        v-if="renderdata.features"
-      >
+      <VueSlickCarousel v-bind="settings" :arrows="true">
+        {{ $store.state.itemrender }}
         <div
           class="row"
-          v-for="(item, index) in renderdata.features.normal_feature"
+          v-for="(item, index) in $store.state.itemrender.features
+            .normal_feature"
           :key="index"
         >
           <div class=" p-lg-3 p-md-2 p-2">
@@ -104,14 +102,11 @@
         class="img-fluid mobiletopshow"
       />
       <div class="show-feature show-game-main container mb-5">
-        <VueSlickCarousel
-          v-bind="settings"
-          :arrows="true"
-          v-if="renderdata.features"
-        >
+        <VueSlickCarousel v-bind="settings" :arrows="true">
           <div
             class="row"
-            v-for="(item, index) in renderdata.features.group_feature"
+            v-for="(item, index) in $store.state.itemrender.features
+              .group_feature"
             :key="index"
           >
             <div class=" p-lg-3 p-md-2 p-2">
@@ -136,6 +131,7 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
 import VueSlickCarousel from "vue-slick-carousel";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 // optional style for arrows & dots
@@ -186,12 +182,8 @@ export default {
       }
     };
   },
-  async fetch() {
-    await this.$axios
-      .get("./get.json")
-      .then(res => ((this.renderdata = res.data), console.log(this.renderdata)))
-      .catch(err => console.log(err));
-  }
+
+  methods: {}
 };
 </script>
 

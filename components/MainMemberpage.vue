@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" v-if="renderdata">
     <div class="text-center py-5 font-weight-bold headertext">
       <h1>เลือกหน้า Member</h1>
       รับทำเว็บไซต์พนันออนไลน์ มีทุกค่าย ครบทุกเกมส์
@@ -64,7 +64,7 @@
 export default {
   data() {
     return {
-      palaceshow: null
+      palaceshow: {}
     };
   },
   props: {
