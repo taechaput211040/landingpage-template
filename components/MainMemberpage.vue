@@ -4,6 +4,12 @@
       <h1>เลือกหน้า Member</h1>
       รับทำเว็บไซต์พนันออนไลน์ มีทุกค่าย ครบทุกเกมส์
     </div>
+    <div
+      v-if="Object.keys(renderdata.landing_page).length == 0"
+      class="text-center"
+    >
+      <h1>Comming Soon..</h1>
+    </div>
     <div class="row">
       <div
         v-for="(item, index) in renderdata.Member"
