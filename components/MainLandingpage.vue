@@ -48,7 +48,7 @@
                   class="img-fluid img-showtheme"
                   @click="showlanding(index, landing)"
                 />
-
+<!-- ** -->
                 <img
                   src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/showmorebtn.png"
                   class="btn-showpalace img fluid"

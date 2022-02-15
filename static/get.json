@@ -4,15 +4,20 @@
   "template": 10,
   "page": "landing",
   "operate_key": "secret123",
+  "main": {
+    "img_logo": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210811100859a9261ec6ff414acaaaa677c9ad7c83a7.png",
+    "img_section1": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/Section_Banner_1.png",
+    "img_section2": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/MockUp.png",
+    "img_section3_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/bgsectiongame2.png",
+    "img_section3_MB": "https://image.smart-ai-api.com/public/thongtest/mbbgsectiongame.png"
+  },
   "landing_page": {
-    "theme1": [
-      {
+    "theme1": [{
         "name": "palate1",
         "title": "Theme1 > Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044028cc843605ec28448d9b5b11f4624c67e0.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t1p1.png",
-        "image": [
-          {
+        "image": [{
             "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme1/landing/palate1/Theme1_Palate1_Dt.png"
           },
           {
@@ -25,8 +30,7 @@
         "title": "Theme1 > Palate2",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044154734770ebda0842ee98a0dc3b10b67544.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t1p2.png",
-        "image": [
-          {
+        "image": [{
             "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme1/landing/palate2/Theme1_Palate2_Dt.png"
           },
           {
@@ -39,8 +43,7 @@
         "title": "Theme1 > Palate3",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044259908c25a13a584146977e511361a05c99.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t1p3.png",
-        "image": [
-          {
+        "image": [{
             "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme1/landing/palate3/Theme1_Palate3_Dt.png"
           },
           {
@@ -49,14 +52,12 @@
         ]
       }
     ],
-    "theme4": [
-      {
+    "theme4": [{
         "name": "palate1",
         "title": "Theme4 > Palate1",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130444233c80fc0c68e445c39f4ed1d62e0bc270.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t4p1.png",
-        "image": [
-          {
+        "image": [{
             "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme4/landing/palate1/dt/Theme4_Palate1_Dt.png",
             "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme4/landing/palate1/dt/Theme4_Palate1_Dt_Sport.png",
             "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme4/landing/palate1/dt/Theme4_Palate1_Dt_Casino.png",
@@ -83,8 +84,7 @@
         "title": "Theme4 > Palate2",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130445386a249f364831483283fe61cc8796fc4c.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t4p2.png",
-        "image": [
-          {
+        "image": [{
             "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme4/landing/palate2/dt/Theme4_palate2_Dt_Home.png",
             "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme4/landing/palate2/dt/Theme4_palate2_Dt_Sport.png",
             "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme4/landing/palate2/dt/Theme4_palate2_Dt_Casino.png",
@@ -111,8 +111,7 @@
         "title": "Theme4 > Palate3",
         "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813044607fe20cedc179a4ec0afe73e9066b6bfed.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t4p3.png",
-        "image": [
-          {
+        "image": [{
             "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme4/landing/palate3/dt/Theme4_palate3_Dt_Home.png",
             "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme4/landing/palate3/dt/Theme4_palate3_Dt_Sport.png",
             "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme4/landing/palate3/dt/Theme4_palate3_Dt_Casino.png",
@@ -135,147 +134,99 @@
         ]
       }
     ],
-
-    "theme5": [
-      {
-        "name": "palate1",
-        "title": "Theme5 > Palate1",
-        "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081305280356689f60761c4c909c0abb2e19408a14.png",
-        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t5p1.png",
-        "image": [
-          {
-            "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_DT_Home.png",
-            "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Sport.png",
-            "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Casino.png",
-            "slot_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Casino-1.png",
-            "horse_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Horse.png",
-            "esport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_E-sport.png",
-            "fishing_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Fishing.png",
-            "lotto_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Lotto.png"
-          },
-          {
-            "main_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Home.png",
-            "sport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Sport.png",
-            "casino_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Casino.png",
-            "slot_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Slot.png",
-            "horse_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Horse.png",
-            "esport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_E-sport.png",
-            "fishing_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Fishing.png",
-            "lotto_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Lotto.png"
-          }
-        ]
-      }
-    ],
-    "theme6": [
-      {
-        "name": "palate1",
-        "title": "Theme6 > Palate1",
-        "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/winbet/mock%20up-landing%20page-theme6.png",
-        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t6p1(1).png",
-        "image": [
-          {
-            "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Home.jpg",
-            "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Sport.jpg",
-            "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Casino.jpg",
-            "slot_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Slot.jpg",
-            "horse_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Horse.jpg",
-            "esport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_E-Sport.jpg",
-            "fishing_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Fishing.jpg",
-            "lotto_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Lotto.jpg"
-          },
-          {
-            "main_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Home.jpg",
-            "sport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Sport.png",
-            "casino_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Casino.png",
-            "slot_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Slot.png",
-            "horse_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Horse.png",
-            "esport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_E-sport.png",
-            "fishing_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Fishing.png",
-            "lotto_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Lotto.png"
-          }
-        ],
-        "description": ""
-      }
-    ],
-    "theme8": [
-      {
-        "name": "palate1",
-        "title": "Theme8 > Palate1",
-        "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/lisa/mock-up-dt_Lisa118.png",
-        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t8p1111.png",
-        "image": [
-          {
-            "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Dt_home.jpg",
-            "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Sport.jpg",
-            "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Casino.jpg",
-            "slot_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Slot.jpg",
-            "horse_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Horse.jpg",
-            "esport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_E-SPORT.jpg",
-            "fishing_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Fishing.jpg",
-            "lotto_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Lotto.jpg",
-            "promotion_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Promotion.jpg"
-          },
-          {
-            "main_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_home.jpg",
-            "sport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Sport.jpg",
-            "casino_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Casino.jpg",
-            "slot_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Slot.jpg",
-            "horse_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Horse.jpg",
-            "esport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_E-SPORT.jpg",
-            "fishing_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Fishing.jpg",
-            "promotion_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Promption.jpg"
-          }
-        ],
-
-        "description": ""
-      }
-    ]
+    "theme5": [{
+      "name": "palate1",
+      "title": "Theme5 > Palate1",
+      "main_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081305280356689f60761c4c909c0abb2e19408a14.png",
+      "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t5p1.png",
+      "image": [{
+          "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_DT_Home.png",
+          "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Sport.png",
+          "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Casino.png",
+          "slot_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Casino-1.png",
+          "horse_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Horse.png",
+          "esport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_E-sport.png",
+          "fishing_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Fishing.png",
+          "lotto_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/dt/Theme5_Palate1_Dt_Lotto.png"
+        },
+        {
+          "main_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Home.png",
+          "sport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Sport.png",
+          "casino_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Casino.png",
+          "slot_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Slot.png",
+          "horse_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Horse.png",
+          "esport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_E-sport.png",
+          "fishing_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Fishing.png",
+          "lotto_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme5/landing/palate1/mb/Theme5_palate1_Mb_Lotto.png"
+        }
+      ]
+    }],
+    "theme6": [{
+      "name": "palate1",
+      "title": "Theme6 > Palate1",
+      "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/winbet/mock%20up-landing%20page-theme6.png",
+      "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t6p1(1).png",
+      "image": [{
+          "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Home.jpg",
+          "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Sport.jpg",
+          "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Casino.jpg",
+          "slot_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Slot.jpg",
+          "horse_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Horse.jpg",
+          "esport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_E-Sport.jpg",
+          "fishing_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Fishing.jpg",
+          "lotto_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/dt/Theme6_palate1_Dt_Lotto.jpg"
+        },
+        {
+          "main_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Home.jpg",
+          "sport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Sport.png",
+          "casino_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Casino.png",
+          "slot_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Slot.png",
+          "horse_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Horse.png",
+          "esport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_E-sport.png",
+          "fishing_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Fishing.png",
+          "lotto_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme6/landing/palate1/mb/Theme6_palate1_Mb_Lotto.png"
+        }
+      ],
+      "description": ""
+    }],
+    "theme8": [{
+      "name": "palate1",
+      "title": "Theme8 > Palate1",
+      "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/lisa/mock-up-dt_Lisa118.png",
+      "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t8p1111.png",
+      "image": [{
+          "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Dt_home.jpg",
+          "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Sport.jpg",
+          "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Casino.jpg",
+          "slot_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Slot.jpg",
+          "horse_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Horse.jpg",
+          "esport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_E-SPORT.jpg",
+          "fishing_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Fishing.jpg",
+          "lotto_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Lotto.jpg",
+          "promotion_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Promotion.jpg"
+        },
+        {
+          "main_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_home.jpg",
+          "sport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Sport.jpg",
+          "casino_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Casino.jpg",
+          "slot_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Slot.jpg",
+          "horse_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Horse.jpg",
+          "esport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_E-SPORT.jpg",
+          "fishing_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Fishing.jpg",
+          "promotion_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Promption.jpg"
+        }
+      ],
+      "description": ""
+    }]
   },
-  "landing_page_seo": {
-    "theme8": [
-      {
-        "name": "palate1",
-        "title": "Theme8 > Palate1",
-        "main_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/lisa/mock-up-dt_Lisa118.png",
-        "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/t8p1111.png",
-        "image": [
-          {
-            "main_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Dt_home.jpg",
-            "sport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Sport.jpg",
-            "casino_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Casino.jpg",
-            "slot_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Slot.jpg",
-            "horse_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Horse.jpg",
-            "esport_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_E-SPORT.jpg",
-            "fishing_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Fishing.jpg",
-            "lotto_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Lotto.jpg",
-            "promotion_DT": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/dt/Theme7_Palate1_Promotion.jpg"
-          },
-          {
-            "main_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_home.jpg",
-            "sport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Sport.jpg",
-            "casino_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Casino.jpg",
-            "slot_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Slot.jpg",
-            "horse_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Horse.jpg",
-            "esport_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_E-SPORT.jpg",
-            "fishing_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Fishing.jpg",
-            "promotion_MB": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/updatetheme/theme8/palace1/mb/Theme7_Palate1_Mb_Promption.jpg"
-          }
-        ],
-
-        "description": ""
-      }
-    ]
-  },
-
+  "landing_page_seo": {},
   "Member": {
-    "theme1": [
-      {
+    "theme1": [{
         "name": "palate1",
         "title": "Theme1 > Palate1",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/MockUp_Theme1-member-palate1_Dt.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m1p1.png",
-        "image": [
-          {
+        "image": [{
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081306063907cbff1aadf2443b81e9730e1373b576.png",
             "register1_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081306071645be6f5a26704aecbae7a1a186a096d3.png",
             "register2_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813060804b01a86de79fa4740bf6779a05687a44e.png",
@@ -310,8 +261,7 @@
         "title": "Theme1 > Palate2",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055315d04ab149241a423682e4dabd66c56155.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m1p2.png",
-        "image": [
-          {
+        "image": [{
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130621525023091e86a0448b96777ca9b49e58eb.png",
             "register1_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813062212e7441a2ed43046fab932e6db884b551f.PNG",
             "register2_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210818030658bb1d4974e1d64bbd950b805400a74871.PNG",
@@ -346,8 +296,7 @@
         "title": "Theme1 > Palate3",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055341c9dd350bb219424193f49a83792587b8.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m1p3.png",
-        "image": [
-          {
+        "image": [{
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130633457fc311539be84284a8dc06e27be00bda.png",
             "register1_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130634115a2412e04eac49d982051082efc9f12b.PNG",
             "register2_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081306351236278b5599f44d26b739e9bf1d49bd8f.png",
@@ -378,14 +327,12 @@
         ]
       }
     ],
-    "theme4": [
-      {
+    "theme4": [{
         "name": "palate1",
         "title": "Theme4 > Palate1",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055711077b0d3e5f9f4334a6cbafd9f04f7366.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m2p1.png",
-        "image": [
-          {
+        "image": [{
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813071123a5bfa63b906f4f8aacd10bab34a6ce27.png",
             "register1_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130711370dd78cff569645d5b085bbecf69a245f.png",
             "register2_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081307114940b3b7b312474970a4ff98ffc84cecf4.png",
@@ -420,8 +367,7 @@
         "title": "Theme4 > Palate2",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130557313bb6444163c54165934a3af022faf62b.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m2p2.png",
-        "image": [
-          {
+        "image": [{
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081307440266b1c06e0eeb419788dc421c03a8e20c.png",
             "register1_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813075047d8759d51a67a4054b120075dbc5d3ae1.png",
             "register2_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130750593a6e17fcbdd5490da9e174590a2e272d.png",
@@ -456,8 +402,7 @@
         "title": "Theme4 > Palate3",
         "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055754805f1d80999f4bd5a135a3e45f082dde.png",
         "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m2p3.png",
-        "image": [
-          {
+        "image": [{
             "login_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813075653ba5aada0c3a443db8408a1bc7c7a9830.png",
             "register1_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813075713b6e0e4f362bc4950bd71d29929073fc2.png",
             "register2_DT": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130757419bbecb319966487c8b9dd018b61e4e5a.png",
@@ -489,10 +434,8 @@
       }
     ]
   },
-
   "features": {
-    "normal_feature": [
-      {
+    "normal_feature": [{
         "name": "วงล้อ พารวย",
         "eng_name": "LUCKY WHEEL",
         "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/spin1.png",
@@ -508,7 +451,7 @@
         "name": "เช็คอิน รายวัน ",
         "eng_name": "DAILY CHECK IN",
         "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/Check-In_icon.png",
-        "status": 0
+        "status": 1
       },
       {
         "name": "ลิงค์รับทรัพย์",
@@ -517,8 +460,7 @@
         "status": 0
       }
     ],
-    "group_feature": [
-      {
+    "group_feature": [{
         "name": "คาสิโน",
         "eng_name": "CASINO",
         "image": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/icon/playing-cards.png",
@@ -561,5 +503,6 @@
         "status": 0
       }
     ]
-  }
+  },
+  "hash": "4193b25ca7ceee6b8d0a7e4d38194f83"
 }

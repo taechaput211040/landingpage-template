@@ -76,7 +76,7 @@
                 class="desktop row pt-4 font-weight-bold align"
                 v-if="showdesktop == true"
               >
-                <div class="col-md-10 col-12 size-col mt-2" v-if="item.main_DT">
+                <div class="col-md-6 col-12 size-col mt-2" v-if="item.main_DT">
                   <div>หน้าหลัก</div>
                   <img
                     :src="item.main_DT"
@@ -85,7 +85,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-10 col-12  size-col mt-2"
+                  class="col-md-6 col-12  size-col mt-2"
                   v-if="item.sport_DT"
                 >
                   <div>Sport</div>
@@ -96,7 +96,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-10 col-12 size-col mt-2"
+                  class="col-md-6 col-12 size-col mt-2"
                   v-if="item.casino_DT"
                 >
                   <div>Casino</div>
@@ -106,7 +106,7 @@
                     alt=""
                   />
                 </div>
-                <div class="col-md-10 col-12 size-col mt-2" v-if="item.slot_DT">
+                <div class="col-md-6 col-12 size-col mt-2" v-if="item.slot_DT">
                   <div>Slot</div>
                   <img
                     :src="item.slot_DT"
@@ -115,7 +115,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-10 col-12 size-col mt-2"
+                  class="col-md-6 col-12 size-col mt-2"
                   v-if="item.horse_DT"
                 >
                   <div>Horse</div>
@@ -126,7 +126,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-10 col-12 size-col mt-2"
+                  class="col-md-6 col-12 size-col mt-2"
                   v-if="item.esport_DT"
                 >
                   <div>E-sport</div>
@@ -137,7 +137,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-10 col-12 size-col mt-2"
+                  class="col-md-6 col-12 size-col mt-2"
                   v-if="item.fishing_DT"
                 >
                   <div>ยิงปลา</div>
@@ -148,7 +148,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-10 col-12 size-col mt-2"
+                  class="col-md-6 col-12 size-col mt-2"
                   v-if="item.lotto_DT"
                 >
                   <div>หวย</div>
@@ -159,7 +159,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-10 col-12  size-col mt-2"
+                  class="col-md-6 col-12  size-col mt-2"
                   v-if="item.promotion_DT"
                 >
                   <div>Promotion</div>
@@ -170,7 +170,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-10 col-12  size-col mt-2"
+                  class="col-md-6 col-12  size-col mt-2"
                   v-if="item.credit_DT"
                 >
                   <div>Credit</div>
@@ -181,7 +181,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-10 col-12 size-col mt-2"
+                  class="col-md-6 col-12 size-col mt-2"
                   v-if="item.contact_DT"
                 >
                   <div>Contract</div>
@@ -192,7 +192,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-10 col-12 size-col mt-2"
+                  class="col-md-6 col-12 size-col mt-2"
                   v-if="item.question_DT"
                 >
                   <div>คำถามที่พบบ่อย</div>
@@ -278,7 +278,7 @@
                   class="col-lg-6 col-12 col-md-6 style-mb mt-2"
                   v-if="item.fishing_MB"
                 >
-                  <div>E-ยิงปลา</div>
+                  <div>ยิงปลา</div>
                   <img
                     :src="item.fishing_MB"
                     class="img-fluid  width-img"

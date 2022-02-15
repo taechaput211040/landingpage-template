@@ -1,15 +1,15 @@
 <template>
   <div class="bg-main-page" v-if="$store.state.itemrender">
     <div class="bg-header">
-      <div class="show-mock">
+      <div class="show-mock" v-if="$store.state.itemrender.main">
         <img
-          src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/Section_Banner_1.png"
+          :src="$store.state.itemrender.main.img_section1"
           class="img-fluid img-showmock"
           alt=""
         />
       </div>
     </div>
-
+    <!-- /** */ -->
     <div class="show-content container text-center show-tocard">
       <img
         src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/red_chips-22.png"
@@ -56,9 +56,13 @@
           class="img-fluid red_chip"
         />
         <div class="row">
-          <div class="col-lg-7 col-md-6 col-12  p-lg-5 p-md-3  p-4 ">
+          <div
+            class="col-lg-7 col-md-6 col-12  p-lg-5 p-md-3  p-4 "
+            v-if="$store.state.itemrender.main"
+          >
+            <!-- **          -->
             <img
-              src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/MockUp.png"
+              :src="$store.state.itemrender.main.img_section2"
               class="img-fluid"
             />
           </div>
@@ -90,17 +94,20 @@
         <span class="text-first"> THE BEST</span>
         <span class="text-second">FEATURE</span>
       </div>
+      <!-- *** -->
+      <div v-if="$store.state.itemrender.main">
+        <img
+          :src="$store.state.itemrender.main.img_section3_DT"
+          alt=""
+          class="img-fluid desktopshow"
+        />
+        <img
+          :src="$store.state.itemrender.main.img_section3_MB"
+          alt=""
+          class="img-fluid mobiletopshow"
+        />
+      </div>
 
-      <img
-        src="https://image.smart-ai-api.com/public/image-storage/demo-template-sale/featuremain/bgsectiongame2.png"
-        alt=""
-        class="img-fluid desktopshow"
-      />
-      <img
-        src="https://image.smart-ai-api.com/public/thongtest/mbbgsectiongame.png"
-        alt=""
-        class="img-fluid mobiletopshow"
-      />
       <div class="show-feature show-game-main container mb-5">
         <VueSlickCarousel v-bind="settings" :arrows="true">
           <div
