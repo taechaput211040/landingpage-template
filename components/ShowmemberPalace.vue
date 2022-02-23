@@ -71,199 +71,38 @@
                 </div>
               </div>
             </div>
-            <div v-for="(item, index) in dataselect.image" :key="index">
+            <div v-if="showdesktop == true">
               <div
                 class="desktop row pt-4 font-weight-bold align"
-                v-if="showdesktop == true"
+                v-if="dataselect.image_dt"
               >
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.login_DT">
-                  <div>หน้าสมัครสมาชิก</div>
-                  <img :src="item.login_DT" class="img-fluid  " alt="" />
-                </div>
                 <div
                   class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.register1_DT"
+                  v-for="(item, index) in dataselect.image_dt"
+                  :key="index"
                 >
-                  <div>หน้ากรอกข้อมูลโทรศัพท์</div>
-                  <img :src="item.register1_DT" class="img-fluid  " alt="" />
-                </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.register2_DT"
-                >
-                  <div>หน้ากรอกข้อมูล</div>
-                  <img :src="item.register2_DT" class="img-fluid  " alt="" />
-                </div>
-
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.main_image_DT"
-                >
-                  <div>หน้าหลัก</div>
-                  <img :src="item.main_image_DT" class="img-fluid  " alt="" />
-                </div>
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.game1_DT">
-                  <div>หน้าเข้าเล่น</div>
-                  <img :src="item.game1_DT" class="img-fluid  " alt="" />
-                </div>
-                <div class="col-12 col-md-6 size-col mt-2" v-if="item.game2_DT">
-                  <div>หน้ากิจกรรม</div>
-                  <img :src="item.game2_DT" class="img-fluid  " alt="" />
-                </div>
-
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.deposit_DT"
-                >
-                  <div>หน้าฝากเงิน</div>
-                  <img :src="item.deposit_DT" class="img-fluid  " alt="" />
-                </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.withdraw_DT"
-                >
-                  <div>หน้าถอนเงิน</div>
-                  <img :src="item.withdraw_DT" class="img-fluid  " alt="" />
-                </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.history_DT"
-                >
-                  <div>หน้าประวัติ</div>
-                  <img :src="item.history_DT" class="img-fluid  " alt="" />
-                </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.change_password_DT"
-                >
-                  <div>หน้าเปลี่ยนรหัส</div>
-                  <img
-                    :src="item.change_password_DT"
-                    class="img-fluid  "
-                    alt=""
-                  />
-                </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.register_promotion_DT"
-                >
-                  <div>หน้าโปรโมชั่น</div>
-                  <img
-                    :src="item.register_promotion_DT"
-                    class="img-fluid  "
-                    alt=""
-                  />
-                </div>
-                <div
-                  class="col-12 col-md-6 size-col mt-2"
-                  v-if="item.promotion_DT"
-                >
-                  <div>หน้าโปรโมชั่น</div>
-                  <img :src="item.promotion_DT" class="img-fluid  " alt="" />
+                  <div>{{ item.text }}</div>
+                  <img :src="item.value" class="img-fluid  " alt="" />
                 </div>
               </div>
-              <!-- mobile  -->
+            </div>
+            <!-- mobile  -->
+            <div v-if="showmobile == true">
               <div
                 class="mobile row pt-4 font-weight-bold align"
-                v-if="showmobile == true"
+                v-if="dataselect.image_mb"
               >
                 <div
                   class="col-12 col-md-4 style-mb mt-2 "
-                  v-if="item.login_MB"
+                  v-for="(item, index) in dataselect.image_mb"
+                  :key="index"
                 >
-                  <div>หน้าสมัครสมาชิก</div>
-                  <img :src="item.login_MB" class="img-fluid  " alt="" />
-                </div>
-                <div
-                  class="col-12 col-md-4 style-mb mt-2"
-                  v-if="item.register1_MB"
-                >
-                  <div>หน้ากรอกข้อมูลโทรศัพท์</div>
-
-                  <img :src="item.register1_MB" class="img-fluid  " alt="" />
-                </div>
-                <div
-                  class="col-12 col-md-4 style-mb mt-2"
-                  v-if="item.register2_MB"
-                >
-                  <div>หน้ากรอกข้อมูล</div>
-
-                  <img :src="item.register2_MB" class="img-fluid  " alt="" />
+                  <div>{{ item.text }}</div>
+                  <img :src="item.value" class="img-fluid  " alt="" />
                 </div>
 
-                <div
-                  class="col-12 col-md-4 style-mb mt-2"
-                  v-if="item.main_image_MB"
-                >
-                  <div>หน้าหลัก</div>
-                  <img :src="item.main_image_MB" class="img-fluid  " alt="" />
-                </div>
-                <div class="col-12 col-md-4 style-mb mt-2" v-if="item.game1_MB">
-                  <div>หน้าเข้าเล่น</div>
-                  <img :src="item.game1_MB" class="img-fluid  " alt="" />
-                </div>
-                <div class="col-12 col-md-4 style-mb mt-2" v-if="item.game2_MB">
-                  <div>หน้ากิจกรรม</div>
-                  <img :src="item.game2_MB" class="img-fluid  " alt="" />
-                </div>
-
-                <div
-                  class="col-12 col-md-4 style-mb mt-2"
-                  v-if="item.deposit_MB"
-                >
-                  <div>หน้าฝากเงิน</div>
-
-                  <img :src="item.deposit_MB" class="img-fluid  " alt="" />
-                </div>
-                <div
-                  class="col-12 col-md-4 style-mb mt-2"
-                  v-if="item.withdraw_MB"
-                >
-                  <div>หน้าถอนเงิน</div>
-
-                  <img :src="item.withdraw_MB" class="img-fluid  " alt="" />
-                </div>
-                <div
-                  class="col-12 col-md-4 style-mb mt-2"
-                  v-if="item.history_MB"
-                >
-                  <div>หน้าประวัติ</div>
-
-                  <img :src="item.history_MB" class="img-fluid  " alt="" />
-                </div>
-                <div
-                  class="col-12 col-md-4 style-mb mt-2"
-                  v-if="item.change_password_MB"
-                >
-                  <div>หน้าเปลี่ยนรหัส</div>
-
-                  <img
-                    :src="item.change_password_MB"
-                    class="img-fluid  "
-                    alt=""
-                  />
-                </div>
-                <div
-                  class="col-12 col-md-4 style-mb mt-2"
-                  v-if="item.register_promotion_MB"
-                >
-                  <div>หน้าโปรโมชั่น</div>
-                  <img
-                    :src="item.register_promotion_MB"
-                    class="img-fluid  "
-                    alt=""
-                  />
-                </div>
-                <div
-                  class="col-12 col-md-4 style-mb mt-2"
-                  v-if="item.promotion_MB"
-                >
-                  <div>หน้าโปรโมชั่น</div>
-                  <img :src="item.promotion_MB" class="img-fluid  " alt="" />
-                </div>
+                <!-- mobile  -->
               </div>
-
-              <!-- mobile  -->
             </div>
           </div>
         </div>
@@ -272,13 +111,6 @@
         <!-- desktop -->
       </div>
     </div>
-    <!-- <template>
-      <div class="set-position">
-        <div class="card-expanding">
-          <div class="font-bold" v-html="dataselect.description"></div>
-        </div>
-      </div>
-    </template> -->
   </div>
 </template>
 
