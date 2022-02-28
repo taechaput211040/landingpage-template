@@ -330,99 +330,828 @@
     }]
   },
   "Member": {
-    "theme1": [{
+    "theme1": [
+      {
       "name": "palette1",
       "title": "Theme1 > Palatte1",
-      "mock_image": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813055711077b0d3e5f9f4334a6cbafd9f04f7366.png",
-      "color": "https://image.smart-ai-api.com/public/image-storage/demo-template-sale/iconoalate/m2p1.png",
+      "mock_image": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mockup/mm_t1_p1_mock-up.png",
+      "color": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/m1p1.png",
       "image_dt": [{
-          "text": "หน้าล็อคอิน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813071123a5bfa63b906f4f8aacd10bab34a6ce27.png"
+          "text": "p.login1",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_login01_dt.jpg"
         },
         {
-          "text": "หน้าสมัครสมาชิก1",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130711370dd78cff569645d5b085bbecf69a245f.png"
+          "text": "p.login2",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_login02_dt.jpg"
         },
         {
-          "text": "หน้าสมัครสมาชิก2",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081307114940b3b7b312474970a4ff98ffc84cecf4.png"
+          "text": "p.login3",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_login03_dt.jpg"
         },
         {
-          "text": "หน้าสมัครสมาชิก3",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081307120754c8abf3507142bea07e6712826a6ae3.png"
+          "text": "p.login4",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_login04_dt.jpg"
         },
         {
-          "text": "หน้าหลัก",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081307120754c8abf3507142bea07e6712826a6ae3.png"
+          "text": "p.change passwprd",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_Change-password_dt.jpg"
         },
         {
-          "text": "คาสิโน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813071239d47ff6c21405432793494ed126cb0a83.png"
+          "text": "p.casino game",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_Casino%20game_dt.jpg"
         },
         {
-          "text": "โปรโมชัน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813071449ab0c503053234a71a8aec1b043042089.png"
+          "text": "p.checkin",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_Check-in_dt.jpg"
         },
         {
-          "text": "หน้าฝากเงิน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813074105af5f9ceadeb94548b40340d133a6041d.PNG"
+          "text": "p.deposit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_deposite_dt.jpg"
         },
         {
-          "text": "หน้าถอนเงิน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813074201e403a7cff9b347648d62a3a37d21d229.PNG"
+          "text": "p.enter game",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_Enter-Game_dt.jpg"
         },
         {
-          "text": "หน้าประวัติถอนเงิน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813074215d5f58931891f4134bf999f5c21288a01.PNG"
+          "text": "p.e-sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_E-sport_dt.jpg"
         },
         {
-          "text": "หน้าเปลี่่ยนรหัสผ่าน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813074228775579f9b8f245d5a6dd538becc3abae.PNG"
+          "text": "p.event",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_Event_dt.jpg"
+        },
+        {
+          "text": "p.fishing game",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_Fishing%20game_dt.jpg"
+        },
+        {
+          "text": "p.free credit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_free-credit_dt.jpg"
+        },
+        {
+          "text": "p.history",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_history_dt.jpg"
+        },
+        {
+          "text": "p.horse game",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_Horse%20game_dt.jpg"
+        },
+        {
+          "text": "p.lucky link ",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_lucky%20link_dt.jpg"
+        },
+        {
+          "text": "p.modal",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_modal_dt.jpg"
+        },
+        {
+          "text": "p.modal_qrcode",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_modal_QR-code_dt.jpg"
+        },
+        {
+          "text": "p.profile",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_profile_dt.jpg"
+        },
+        {
+          "text": "p.promotion member",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_promotion-member_dt.jpg"
+        },
+        {
+          "text": "p.slot game",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_Slot%20game_dt.jpg"
+        },
+        {
+          "text": "p.sport game",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_Sport%20game_dt.jpg"
+        },
+        {
+          "text": "p.wheel",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_wheel_dt.jpg"
+        },
+        {
+          "text": "p.withdraw",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/dt/mm_t1_p1_withdraw_dt.jpg"
         }
       ],
       "image_mb": [{
-          "text": "หน้าล็อคอิน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813071123a5bfa63b906f4f8aacd10bab34a6ce27.png"
+          "text": "p.login",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_login01_mb.jpg"
         },
         {
-          "text": "หน้าสมัครสมาชิก1",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/202108130711370dd78cff569645d5b085bbecf69a245f.png"
+          "text": "p.register1",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_login02_mb.jpg"
         },
         {
-          "text": "หน้าสมัครสมาชิก2",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081307114940b3b7b312474970a4ff98ffc84cecf4.png"
+          "text": "p.register2",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_login03_mb.jpg"
         },
         {
-          "text": "หน้าสมัครสมาชิก3",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081307120754c8abf3507142bea07e6712826a6ae3.png"
+          "text": "p.register3",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_login04_mb.jpg"
         },
         {
-          "text": "หน้าหลัก",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/2021081307120754c8abf3507142bea07e6712826a6ae3.png"
+          "text": "p.menu slide",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/Menu%20slide%20%284%29.jpg"
         },
         {
-          "text": "คาสิโน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813071239d47ff6c21405432793494ed126cb0a83.png"
+          "text": "p.change password",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_change-password_mb.png"
         },
         {
-          "text": "โปรโมชัน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813071449ab0c503053234a71a8aec1b043042089.png"
+          "text": "p.checkin",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_check-in_mb.png"
         },
         {
-          "text": "หน้าฝากเงิน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813074105af5f9ceadeb94548b40340d133a6041d.PNG"
+          "text": "p.deposit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_deposit_mb.png"
         },
         {
-          "text": "หน้าถอนเงิน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813074201e403a7cff9b347648d62a3a37d21d229.PNG"
+          "text": "p.deposit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_deposit_mb.png"
         },
         {
-          "text": "หน้าประวัติถอนเงิน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813074215d5f58931891f4134bf999f5c21288a01.PNG"
+          "text": "p.enter game",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_enter-game_mb.png"
         },
         {
-          "text": "หน้าเปลี่่ยนรหัสผ่าน",
-          "value": "https://image.smart-ai-api.com/public/image-storage-betkub/images/20210813074228775579f9b8f245d5a6dd538becc3abae.PNG"
+          "text": "p.e-sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_E-sport_mb.png"
+        },
+        {
+          "text": "p.fishing",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_Fishing_mb.png"
+        },
+        {
+          "text": "p.free credit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_free-credit_mb.png"
+        },
+        {
+          "text": "p.history",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_history_mb.png"
+        },
+        {
+          "text": "p.horse",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_horse_mb.png"
+        },
+        {
+          "text": "p.lucky link",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_lucky-link_mb.png"
+        },
+        {
+          "text": "p.modal",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_modal_mb.png"
+        },
+        {
+          "text": "p.modal qrcode",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_modal-QR-code_mb.png"
+        },
+        {
+          "text": "p.profile",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_profile_mb.png"
+        },
+        {
+          "text": "p.promotion",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_promotion_mb.png"
+        },
+        {
+          "text": "p.qrline",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_QR-line_mb.png"
+        },
+        {
+          "text": "p.slot",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_slot_mb%20%281%29.png"
+        },
+        {
+          "text": "p.qrline(1)",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_QR-line_mb%20%281%29.png"
+        },
+        {
+          "text": "p.sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_sport_mb.png"
+        },
+        {
+          "text": "p.wheel",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_wheel_mb.png"
+        },
+        {
+          "text": "p.withdraw",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme1/mb/mm_t1_p1_withdraw_mb.png"
+        }
+      ]
+    }],
+    "theme2": [
+      {
+      "name": "palette1",
+      "title": "Theme2 > Palatte1",
+      "mock_image": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mockup/Mockup_mm_theme2.png",
+      "color": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/m2p1.png",
+      "image_dt": [
+        {
+          "text": "p.bonus",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_bonus_dt.png"
+        },
+        {
+          "text": "p.casino",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_casino_dt.png"
+        },
+        {
+          "text": "p.change password",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_changpass_dt.png"
+        },
+        {
+          "text": "p.checkin",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_checkin_dt.png"
+        },
+        {
+          "text": "p.credit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_credit_dt.png"
+        },
+        {
+          "text": "p.deposit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_deposit_dt.png"
+        },
+        {
+          "text": "p.e-sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_e-sport_dt.png"
+        },
+        {
+          "text": "p.fish",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_fish_dt.png"
+        },
+        {
+          "text": "p.history",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_history_dt.png"
+        },
+        {
+          "text": "p.horse",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_horse_dt.png"
+        },
+        {
+          "text": "p.link",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_link_dt.png"
+        },
+        {
+          "text": "p.linkline",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_linkline_dt%20%281%29.png"
+        },
+        {
+          "text": "p.linkline(1)",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_linkline_dt%20%281%29.png"
+        },
+        {
+          "text": "p.linkline",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_linkline_dt.png"
+        },
+        {
+          "text": "p.main",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_main_dt.png"
+        },
+        {
+          "text": "p.modal",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_modal_dt.png"
+        },
+        {
+          "text": "p.play",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_play_dt.png"
+        },
+        {
+          "text": "p.promotion",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_promotion_dt.png"
+        },
+        {
+          "text": "p.register",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_register_dt%20%281%29.png"
+        },
+        {
+          "text": "p.login",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_register_dt.png"
+        },
+        {
+          "text": "p.register number",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_registernumber_dt.png"
+        },
+        {
+          "text": "p.slot",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_slot_dt.png"
+        },
+        {
+          "text": "p.sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_sport_dt.png"
+        },
+        {
+          "text": "p.wheel",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_wheel_dt.png"
+        },
+        {
+          "text": "p.withdraw",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/dt/mm_t2_p1_withdraw_dt.png"
+        }
+      ],
+
+      "image_mb": [
+        {
+          "text": "p.casino",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_casino_mb.png"
+        },
+        {
+          "text": "p.change password",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_chang%20pass_mb.png"
+        },
+        {
+          "text": "p.checkin",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_checkin_mb.png"
+        },
+        {
+          "text": "p.credit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_credit_mb.png"
+        },
+        {
+          "text": "p.deposit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_deposit_mb.png"
+        },
+        {
+          "text": "p.e-sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_e-sport_mb.png"
+        },
+        {
+          "text": "p.fish",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_fish_mb.png"
+        },
+        {
+          "text": "p.history",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_history_mb.png"
+        },
+        {
+          "text": "p.horse",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_horse_mb.png"
+        },
+        {
+          "text": "p.information",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_infomation_mb.png"
+        },
+        {
+          "text": "p.line(1)",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_line_mb%20%281%29.png"
+        },
+        {
+          "text": "p.line",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_line_mb.png"
+        },
+        {
+          "text": "p.link",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_Link_mb.png"
+        },
+        {
+          "text": "p.main",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_main_mb.png"
+        },
+        {
+          "text": "p.modal",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_modal_mb.png"
+        },
+        {
+          "text": "p.play(1)",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_play_mb%20%281%29.png"
+        },
+        {
+          "text": "p.play",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_play_mb.png"
+        },
+        {
+          "text": "p.promotion",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_promotion_mb.png"
+        },
+        {
+          "text": "p.login",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_register_mb.png"
+        },
+        {
+          "text": "p.register number",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_register%20number_mb.png"
+        },
+        {
+          "text": "p.slot",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_slot_mb.png"
+        },
+        {
+          "text": "p.sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_sport_mb.png"
+        },
+        {
+          "text": "p.wheel",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_wheel_mb.png"
+        },
+        {
+          "text": "p.withdraw",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme2/mb/mm_t2_p1_withdraw_mb.png"
+        }
+      ]
+    }],
+    "theme3": [
+      {
+      "name": "palette1",
+      "title": "Theme3 > Palatte1",
+      "mock_image": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mockup/Mockup_mm_theme3.png",
+      "color": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/m4p1.png",
+      "image_dt": [
+        {
+          "text": "p.bonus",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_bonus_dt.png"
+        },
+        {
+          "text": "p.casino",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_casino_dt.png"
+        },
+        {
+          "text": "p.change password",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_changpass_dt.png"
+        },
+        {
+          "text": "p.checkin",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_checkin_dt.png"
+        },
+        {
+          "text": "p.credit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_credit_dt.png"
+        },
+        {
+          "text": "p.deposit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_deposit_dt.png"
+        },
+        {
+          "text": "p.e-sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_e-sport_dt.png"
+        },
+        {
+          "text": "p.fish",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_fish_dt.png"
+        },
+        {
+          "text": "p.history",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_history_dt.png"
+        },
+        {
+          "text": "p.horse",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_horse_dt.png"
+        },
+        {
+          "text": "p.link",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_link_dt.png"
+        },
+        {
+          "text": "p.linkline(1)",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_linkline_dt%20%281%29.png"
+        },
+        {
+          "text": "p.linkline",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_linkline_dt.png"
+        },
+        {
+          "text": "p.main",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_main_dt.png"
+        },
+        {
+          "text": "p.modal",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_modal_dt.png"
+        },
+        {
+          "text": "p.play",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_play_dt.png"
+        },
+        {
+          "text": "p.promotion",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_promotion_dt.png"
+        },
+        {
+          "text": "p.register",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_register_dt%20%281%29.png"
+        },
+        {
+          "text": "p.login",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_register_dt.png"
+        },
+        {
+          "text": "p.register number",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_registernumber_dt.png"
+        },
+        {
+          "text": "p.slot",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_slot_dt.png"
+        },
+        {
+          "text": "p.sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_sport_dt.png"
+        },
+        {
+          "text": "p.wheel",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_wheel_dt.png"
+        },
+        {
+          "text": "p.withdraw",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/dt/mm_t3_p1_withdraw_dt.png"
+        }
+      ],
+
+      "image_mb": [
+        {
+          "text": "p.casino",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_casino_mb.png"
+        },
+        {
+          "text": "p.change password",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_chang%20pass_mb.png"
+        },
+        {
+          "text": "p.checkin",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_checkin_mb.png"
+        },
+        {
+          "text": "p.credit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_credit_mb.png"
+        },
+        {
+          "text": "p.deposit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_deposit_mb.png"
+        },
+        {
+          "text": "p.e-sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_e-sport_mb.png"
+        },
+        {
+          "text": "p.fish",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_fish_mb.png"
+        },
+        {
+          "text": "p.history",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_history_mb.png"
+        },
+        {
+          "text": "p.horse",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_horse_mb.png"
+        },
+        {
+          "text": "p.information",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_infomation_mb.png"
+        },
+        {
+          "text": "p.line mb(1)",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_line_mb%20%281%29.png"
+        },
+        {
+          "text": "p.line mb",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_line_mb.png"
+        },
+        {
+          "text": "p.link line",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_linkline_mb.png"
+        },
+        {
+          "text": "p.link",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_Link_mb.png"
+        },
+        {
+          "text": "p.main",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_main_mb.png"
+        },
+        {
+          "text": "p.modal",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_modal_mb.png"
+        },
+        {
+          "text": "p.play",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_play_mb.png"
+        },
+        {
+          "text": "p.promotion",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_promotion_mb.png"
+        },
+        {
+          "text": "p.login",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_register_mb.png"
+        },
+        {
+          "text": "p.register number",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_register%20number_mb.png"
+        },
+        {
+          "text": "p.slot",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_slot_mb.png"
+        },
+        {
+          "text": "p.sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_sport_mb.png"
+        },
+        {
+          "text": "p.wheel",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_wheel_mb.png"
+        },
+        {
+          "text": "p.withdraw",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme3/mb/mm_t3_p1_withdraw_mb.png"
+        } 
+      ]
+    }],
+    "theme4": [
+      {
+      "name": "palette1",
+      "title": "Theme4 > Palatte1",
+      "mock_image": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mockup/Mockup_mm_theme4.png",
+      "color": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/m3p1.png",
+      "image_dt": [
+        {
+          "text": "p.bonus",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_bonus_dt.png"
+        },
+        {
+          "text": "p.casino",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_casino_dt.png"
+        },
+        {
+          "text": "p.change password",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_chang%20pass_dt.png"
+        },
+        {
+          "text": "p.checkin",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_checkin_dt.png"
+        },
+        {
+          "text": "p.credit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_credit_dt.png"
+        },
+        {
+          "text": "p.deposit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_deposit_dt.png"
+        },
+        {
+          "text": "p.e-sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_e-sport_dt.png"
+        },
+        {
+          "text": "p.fish",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_fish_dt.png"
+        },
+        {
+          "text": "p.history",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_history_dt.png"
+        },
+        {
+          "text": "p.horse",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_horse_dt.png"
+        },
+        {
+          "text": "p.line",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_line_dt.png"
+        },
+        {
+          "text": "p.link",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_link_dt.png"
+        },
+        {
+          "text": "p.link line",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_linkline_dt%20%281%29.png"
+        },
+        {
+          "text": "p.main",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_main_dt.png"
+        },
+        {
+          "text": "p.modal",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_modal_dt.png"
+        },
+        {
+          "text": "p.play",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_play_dt.png"
+        },
+        {
+          "text": "p.promotion",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_promotion_dt.png"
+        },
+        {
+          "text": "p.slot",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_slot_dt.png"
+        },
+        {
+          "text": "p.sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_sport_dt.png"
+        },
+        {
+          "text": "p.wheel",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_wheel_dt.png"
+        },
+        {
+          "text": "p.withdraw",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_p1_withdraw_dt.png"
+        },
+        {
+          "text": "p.register information",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_registeinfomation_dt.png"
+        },
+        {
+          "text": "p.register",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_register_dt.png"
+        },
+        {
+          "text": "p.register number",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/dt/mm_t4_registernumber_dt.png"
+        }
+      ],
+
+      "image_mb": [
+        {
+          "text": "p.casino",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_casino_mb.png"
+        },
+        {
+          "text": "p.change password",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_chang%20pass_mb.png"
+        },
+        {
+          "text": "p.checkin",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_checkin_mb.png"
+        },
+        {
+          "text": "p.credit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_credit_mb.png"
+        },
+        {
+          "text": "p.deposit",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_deposit_mb.png"
+        },
+        {
+          "text": "p.e-sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_e-sport_mb.png"
+        },
+        {
+          "text": "p.fish",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_fish_mb.png"
+        },
+        {
+          "text": "p.history",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_history_mb.png"
+        },
+        {
+          "text": "p.horse",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_horse_mb.png"
+        },
+        {
+          "text": "p.information",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_infomation_mb.png"
+        },
+        {
+          "text": "p.line(1)",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_line_mb%20%281%29.png"
+        },
+        {
+          "text": "p.line",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_line_mb.png"
+        },
+        {
+          "text": "p.link",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_link_mb.png"
+        },
+        {
+          "text": "p.main",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_main_mb.png"
+        },
+        {
+          "text": "p.modal",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_modal_mb.png"
+        },
+        {
+          "text": "p.play",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_play_mb.png"
+        },
+        {
+          "text": "p.promotion(1)",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_promotion_mb%20%281%29.png"
+        },
+        {
+          "text": "p.promotion",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_promotion_mb.png"
+        },
+        {
+          "text": "p.register",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_register_mb.png"
+        },
+        {
+          "text": "p.register number",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_register%20number_mb.png"
+        },
+        {
+          "text": "p.slot",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_slot_mb.png"
+        },
+        {
+          "text": "p.sport",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_sport_mb.png"
+        },
+        {
+          "text": "p.wheel",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_wheel_mb.png"
+        },
+        {
+          "text": "p.withdraw",
+          "value": "https://image.smart-ai-api.com/public/image-storage/smartbet-sale-theme/member/theme4/mb/mm_t4_p1_withdraw_mb.png"
         }
       ]
     }]
