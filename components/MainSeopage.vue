@@ -3,6 +3,7 @@
     <div class="text-center py-5 font-weight-bold headertext">
       <h1>เลือกหน้า Landing Page (SEO)</h1>
       รับทำเว็บไซต์พนันออนไลน์ มีทุกค่าย ครบทุกเกมส์
+      <h2 style="color:red;">**เพิ่มเงิน 10,000 บาท**</h2>
     </div>
 
     <div
@@ -56,7 +57,7 @@
                 />
                 <div class="text-center my-3">
                   <h3 class="text-uppercase" style="font-weight: bold;">
-                    SB-{{ index }}
+                    SEO-{{ index }}
                   </h3>
                 </div>
               </div>
