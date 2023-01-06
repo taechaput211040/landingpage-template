@@ -31,12 +31,12 @@ export default {
         property: "og:url",
         content: "https://template.smart-agent.co/"
       },
-      { hid: "og:title", property: "og:title", content: "Welcome to SMARTBET" },
+      { hid: "og:title", property: "og:title", content: "Welcome to Template" },
       {
         hid: "og:description",
         property: "og:description",
         content:
-          " SMARTBET บริการทำเว็ปไซต์ Responsive Template Website เทมเพลตที่รองรับทุกระบบผ่านทุกอุปกรณ์อย่างสมบูรณ์เเบบ"
+          "บริการทำเว็ปไซต์ Responsive Template Website เทมเพลตที่รองรับทุกระบบผ่านทุกอุปกรณ์อย่างสมบูรณ์เเบบ"
       },
       { hid: "og:image", property: "og:image", content: "/logo.png" }
 
