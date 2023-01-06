@@ -3,10 +3,8 @@
     <div class="menu_header">
       <div class="header-show container">
         <nuxt-link to="/" class="logo" v-if="$store.state.itemrender.main">
-          <img
-            :src="$store.state.itemrender.main.img_logo"
-            class="img-imgfluid main-logo"
-          />
+          <!-- <div class="btn btn-home"  :class="{ active_menu: this.$route.name == '/' }">หน้าหลัก</div > -->
+          <img class="main-logo" :src="$store.state.itemrender.main.img_logo" />
         </nuxt-link>
         <div class="menu">
           <nuxt-link
@@ -71,7 +69,7 @@
     </div>
     <Nuxt />
     <div class="footer">
-      © Copyright All reserve SMARTBET
+      © Copyright All reserved template
     </div>
   </div>
 </template>

@@ -4,7 +4,7 @@
       <div class="show-mock" v-if="$store.state.itemrender.main">
         <img
           :src="$store.state.itemrender.main.img_section1"
-          class="img-fluid img-showmock"
+          class="img-fluid img_show_index"
           alt=""
         />
       </div>
