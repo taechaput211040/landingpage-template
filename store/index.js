@@ -11,7 +11,7 @@ export default function() {
     actions: {
       async getData(context) {
         return new Promise(async (resolve, reject) => {
-          // let response = await this.$axios.get("example.json");
+          // let response = await this.$axios.get("example.json");ห
           let response = await this.$axios.get(
             "https://admin-static-api-qlws7pv5wa-as.a.run.app/api/Static/4193b25ca7ceee6b8d0a7e4d38194f83"
           );
