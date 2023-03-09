@@ -13,7 +13,7 @@ export default function() {
         return new Promise(async (resolve, reject) => {
           // let response = await this.$axios.get("example.json");
           let response = await this.$axios.get(
-            "https://admin-static-api-ehhif4jpyq-as.a.run.app/api/Static/4193b25ca7ceee6b8d0a7e4d38194f83"
+            "https://admin-static-api-qlws7pv5wa-as.a.run.app/api/Static/4193b25ca7ceee6b8d0a7e4d38194f83"
           );
           if (response.status == 200) {
             localStorage.setItem(
